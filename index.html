@@ -1,0 +1,1067 @@
+<!doctype html>
+<html lang="vi">
+<head>
+ <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+ <meta name="theme-color" content="#fbf9ef">
+ <meta name="description" content="Một câu chuyện nhỏ ngày 20/11, dành riêng cho Hương Giang. Em gieo mầm. Anh gửi thương.">
+ <title>Em gieo mầm. Anh gửi thương. — Gửi Hương Giang, 20/11</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&amp;family=Patrick+Hand&amp;display=swap" rel="stylesheet">
+ <style>/* Letter chapter: a small stationery desk and a paper letter. */
+ .lettersection{background:radial-gradient(ellipse at 78% 45%,#e6eedf 0,transparent 48%),#f8f5ec;overflow:hidden}
+ .letter-layout{display:grid;grid-template-columns:.92fr 1.08fr;align-items:center;gap:52px}
+ .letter-intro{text-align:left}
+ .letter-intro .heading{font-size:clamp(48px,5.6vw,76px);max-width:450px;margin:18px 0 22px}
+ .letter-intro .lead{font-size:15px;line-height:2;max-width:400px;margin:0}
+ .letter-intro-note{display:flex;align-items:center;gap:12px;color:#76876b;font-size:12px;margin-top:25px}
+ .letter-intro-note::before{content:'';width:30px;height:1px;background:#a9b89b}
+ .letter-desk{position:relative;min-height:380px;display:grid;place-items:center;margin:0 auto 22px;width:100%;isolation:isolate}
+ .letter-desk::before{content:'';position:absolute;inset:12px -14px 5px;border:1px solid #cbd7be;border-radius:49% 48% 45% 50%;transform:rotate(-7deg);z-index:-1}
+ .letter-desk::after{content:'';position:absolute;inset:26px 1px 15px;background:#e9efdf;border-radius:48% 48% 45% 50%;z-index:-2}
+ .desk-sprig{position:absolute;width:135px;right:-32px;top:-4px;transform:rotate(28deg);pointer-events:none;z-index:3}
+ .desk-sprig svg{display:block;width:100%;height:auto}
+ .desk-note{position:absolute;right:-4px;bottom:6px;transform:rotate(7deg);background:#fffdf4;box-shadow:0 6px 16px #3c523416;border:1px solid #e5e8d9;padding:12px 17px;font:25px 'Dancing Script',cursive;color:#77845f;z-index:5;pointer-events:none}
+ .desk-note::before{content:'';position:absolute;width:42px;height:14px;top:-7px;left:40%;background:#c1d0ad88;transform:rotate(-7deg)}
+ .envelope-wrap{position:relative;display:block;width:min(100%,370px);height:242px;margin:23px 0 0;padding:0;border:0;border-radius:8px;background:transparent;color:inherit;cursor:pointer;perspective:1000px;isolation:isolate;transform:rotate(-5deg);transition:transform .4s;box-shadow:0 22px 32px -12px #3f5e4138}
+ .envelope-wrap:hover{transform:rotate(-3deg) translateY(-5px)}
+ .envelope-wrap:focus-visible{outline:3px solid #6d8c60;outline-offset:8px}
+ .envelope-back{position:absolute;inset:0;border-radius:8px;background:#91ad85;z-index:0}
+ .envelope-slip{position:absolute;inset:19px 21px 21px;border:1px solid #dfdfcb;border-radius:5px;background:#fffdf2;z-index:1;transition:transform .85s .2s;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;padding:25px 15px;gap:10px;box-shadow:0 2px 12px #354c3020}
+ .envelope-slip small{font-size:9px;letter-spacing:.18em;color:#889579}
+ .envelope-slip strong{font:30px 'Dancing Script',cursive;color:#52774e}
+ .envelope-slip::after{content:'';width:70%;height:32px;margin-top:2px;background:repeating-linear-gradient(transparent 0,transparent 14px,#dce2d1 14px,#dce2d1 15px)}
+ .envelope-pocket{position:absolute;inset:0;z-index:3;border-radius:8px;background:linear-gradient(132deg,#abc19d,#c2d1b4);clip-path:polygon(0 0,50% 53%,100% 0,100% 100%,0 100%)}
+ .envelope-pocket::after{content:'';position:absolute;inset:0;background:#bccdac;clip-path:polygon(0 100%,50% 49%,100% 100%)}
+ .envelope-wrap .flap{position:absolute;inset:0 0 auto;height:56%;background:linear-gradient(180deg,#c5d4b7,#b2c6a3);clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:transform .75s ease,z-index 0s .25s;z-index:4;border-radius:8px 8px 0 0}
+ .envelope-wrap .seal{position:absolute;left:50%;top:105px;transform:translate(-50%,-50%);width:48px;height:48px;border:4px double #d5b9a0;border-radius:50%;background:radial-gradient(circle at 33% 25%,#f6dfc8,#dfb99b);color:#986e55;display:grid;place-items:center;z-index:5;box-shadow:0 3px 8px #47643b22;transition:opacity .2s}
+ .seal svg{width:19px;height:19px}
+ .envelope-address{position:absolute;bottom:27px;left:26px;right:26px;z-index:4;text-align:left;color:#38583d}
+ .envelope-address small{display:block;font-size:9px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:4px;opacity:.7}
+ .envelope-address strong{display:block;font:29px 'Dancing Script',cursive}
+ .envelope-stamp{position:absolute;right:22px;bottom:78px;z-index:4;width:43px;height:47px;border:1px dashed #617f5d99;display:grid;align-content:center;gap:2px;text-align:center;font-size:9px;color:#5b7756;transform:rotate(8deg)}
+ .envelope-stamp svg{width:17px;height:17px;margin:auto;color:#769469}
+ .envelope-wrap.open .flap{transform:rotateX(180deg);z-index:0}
+ .envelope-wrap.open .envelope-slip{transform:translateY(-77px);z-index:2}
+ .envelope-wrap.open .seal{opacity:0}
+ .envelope-wrap.open{transform:rotate(0deg) translateY(5px)}
+ .letter-open-control{text-align:center}
+ .letter-open-control .pill{min-height:48px;padding:14px 26px;gap:10px;background:#456949;color:#fff;border:0;box-shadow:0 10px 22px #37573820}
+ .letter-open-control svg{width:17px;height:17px}
+ .letter-open-hint{font-size:11px;line-height:1.7;color:#748268;margin:15px 0 0}
+ .letter-modal{position:fixed;inset:0;margin:auto;width:min(720px,calc(100vw - 32px));height:min(830px,92svh);max-width:none;max-height:none;padding:0;border:1px solid #d5dfc7;border-radius:23px;overflow:hidden;background:#fefcf4;color:#38563f;box-shadow:0 32px 120px #142a2750}
+ .letter-modal:not([open]){display:none}
+ .letter-modal::backdrop{background:#183f32ba;backdrop-filter:blur(8px)}
+ .letter-sheet{position:relative;width:100%;height:100%;max-height:none;display:grid;grid-template-rows:auto minmax(0,1fr) auto;padding:0;margin:0;border-radius:inherit;background:#fdfbf3;overflow:hidden;animation:none;box-shadow:none}
+ .letter-modal.visible .letter-sheet{animation:letter-unfold .48s cubic-bezier(.16,1,.3,1) both}
+ .letter-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:70px;background:#eaf0e1;padding:12px 19px 12px 25px;border-bottom:1px solid #d9e2cb;z-index:2}
+ .letter-toolbar-label{display:flex;align-items:center;gap:12px;font-size:11px;line-height:1.7;letter-spacing:.025em;color:#526b48}
+ .letter-toolbar-label>svg{width:29px;height:29px;padding:7px;border:1px solid #b1c49e;border-radius:50%;color:#7d9e68;box-sizing:content-box}
+ .letter-toolbar-label strong{display:block;font-weight:600;letter-spacing:.1em;font-size:10px}
+ .letter-toolbar-label span{display:block;color:#708260;font-size:11px;letter-spacing:0}
+ .letter-close{border:1px solid #c7d4b8;background:#f6f8ee;color:#527044;border-radius:50%;width:42px;height:42px;flex:0 0 auto;padding:11px;display:grid;place-items:center;transition:background .2s,transform .2s}
+ .letter-close:hover{background:#dce8ce;transform:rotate(8deg)}
+ .letter-close svg{width:100%;height:100%}
+ .letter-scroll{position:relative;min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#b9c9a9 #f4f4e8;padding:35px 49px 40px;outline-offset:-5px;background-image:radial-gradient(#9ba88912 .65px,transparent .65px);background-size:6px 6px}
+ .letter-ornament{position:absolute;right:14px;top:23px;width:105px;transform:rotate(7deg);pointer-events:none;opacity:.82}
+ .letter-ornament svg{width:100%;height:auto}
+ .letter-date{font-size:10px;letter-spacing:.19em;font-weight:500;color:#7a8968;text-transform:uppercase;margin-bottom:18px}
+ .letter-sheet h2{font-family:'Dancing Script',cursive;font-size:clamp(36px,5.6vw,51px);font-weight:600;line-height:1.2;color:#4b7147;margin:0 0 12px;max-width:90%;padding-right:32px}
+ .letter-sheet h2 span{display:block;font-size:.78em;color:#799061;margin-top:7px}
+ .letter-divider{display:flex;align-items:center;gap:11px;width:100%;color:#8da17c;margin:24px 0 25px}
+ .letter-divider::before,.letter-divider::after{content:'';height:1px;background:#d5dec9;flex:1}
+ .letter-divider svg{width:12px;height:12px}
+ .letter-copy{position:relative;z-index:1;min-height:48px}
+ .letter-sheet .letter-copy p{font-size:14px;line-height:2.05;margin:0 0 19px;color:#48604b;overflow-wrap:break-word;font-weight:400}
+ .letter-sheet .letter-copy p:first-child{color:#56744b;font-weight:600}
+ .letter-copy p[hidden]{display:none}
+ .letter-copy strong{font-weight:600;color:#456943}
+ .letter-sheet .letter-copy .letter-signature{font-family:'Dancing Script',cursive;font-size:29px;font-weight:500;line-height:1.4;text-align:right;color:#6b8858;margin:29px 0 9px;padding-right:4px}
+ .letter-sheet .letter-copy .letter-signature small{display:block;font:10px var(--hand-body);letter-spacing:.06em;color:#8c997b;margin-top:12px}
+ .letter-copy .typing-active::after{content:'';display:inline-block;width:2px;height:1em;background:#759464;margin-left:3px;vertical-align:-.12em;animation:letter-cursor .85s step-end infinite}
+ .letter-footer{position:relative;z-index:2;border-top:1px solid #dde5d0;background:#f3f6ea;padding:17px 23px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+ .letter-status-wrap{min-width:0}
+ .letter-status{font-size:11px;line-height:1.65;color:#647956;display:block}
+ .letter-status small{display:block;color:#879473;font-size:10px}
+ .letter-action{border:1px solid #c2d1af;background:#fffef5;color:#496b40;border-radius:24px;padding:11px 16px;min-height:44px;font-size:11px;font-weight:600;white-space:nowrap;box-shadow:0 2px 0 #d9e2cb;transition:background .2s}
+ .letter-action:hover{background:#e5edda}
+ .letter-action:focus-visible,.letter-close:focus-visible,.letter-open-control button:focus-visible{outline:3px solid #799e67;outline-offset:3px}
+ .letter-progress{position:absolute;top:-2px;left:0;right:0;height:2px;background:#dfe7d4;pointer-events:none}
+ .letter-progress span{display:block;width:100%;height:100%;transform:scaleX(0);transform-origin:left;background:#8aa66d;transition:transform .18s linear}
+ .letter-sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;clip-path:inset(50%)!important;white-space:nowrap!important;border:0!important;min-height:0!important}
+ /* Keep the bouquet gift's existing close button styling. */
+ .close{position:absolute;right:16px;top:15px;border:0;background:#e6f0e3;color:var(--forest);width:36px;height:36px;border-radius:50%;font-size:21px}
+ @keyframes letter-unfold{from{opacity:0;transform:translateY(13px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+ @keyframes letter-cursor{0%,45%{opacity:1}50%,100%{opacity:0}}
+ @media(max-width:700px){
+  .letter-layout{grid-template-columns:1fr;gap:37px;width:min(100%,440px)}
+  .letter-intro{text-align:center}.letter-intro .heading{font-size:50px;margin:15px auto 18px;max-width:310px}.letter-intro .lead{font-size:14px;margin:auto;max-width:350px}.letter-intro-note{justify-content:center;margin-top:19px}
+  .letter-desk{width:calc(100% - 28px);min-height:310px;margin-bottom:24px}.letter-desk::before{inset:3px -13px 0}.letter-desk::after{inset:14px -2px 10px}.desk-sprig{width:96px;right:-23px;top:-3px}.desk-note{font-size:22px;right:-9px;bottom:1px;padding:10px 13px}
+  .envelope-wrap{width:min(100% - 12px,340px);height:auto;aspect-ratio:1.54;margin-top:10px}.envelope-wrap .seal{top:44%;width:43px;height:43px}.envelope-address{bottom:24px;left:21px;right:21px}.envelope-address strong{font-size:26px}.envelope-address small{font-size:8px}.envelope-stamp{right:20px;bottom:72px;width:35px;height:41px}.envelope-slip{inset:13px 16px 16px;padding-top:20px}.envelope-slip strong{font-size:27px}.envelope-slip small{font-size:8px}.envelope-wrap.open .envelope-slip{transform:translateY(-60px)}
+  .letter-modal{width:calc(100vw - 22px);height:92svh;height:92dvh;border-radius:18px}.letter-toolbar{min-height:64px;padding:10px 13px 10px 19px}.letter-toolbar-label{gap:9px}.letter-toolbar-label>svg{width:19px;height:19px}.letter-toolbar-label strong{font-size:9px;letter-spacing:.07em}.letter-toolbar-label span{font-size:10px}.letter-close{width:40px;height:40px;padding:10px}
+  .letter-scroll{padding:27px 25px 30px}.letter-ornament{width:83px;right:5px;top:29px;opacity:.67}.letter-date{font-size:9px;letter-spacing:.15em;margin-bottom:19px}.letter-sheet h2{font-size:40px;max-width:100%;padding-right:34px}.letter-sheet h2 span{font-size:.72em}.letter-divider{margin:23px 0}.letter-sheet .letter-copy p{font-size:13px;line-height:2.08;margin-bottom:18px}.letter-sheet .letter-copy .letter-signature{font-size:26px}.letter-footer{padding:14px 16px 16px;gap:10px}.letter-status{font-size:10px}.letter-status small{font-size:9px}.letter-action{font-size:10px;padding:10px 12px}
+ }
+ @media(max-width:359px){.letter-footer{flex-direction:column;align-items:stretch;gap:8px}.letter-status-wrap{text-align:center}.letter-status small{display:none}.letter-action{min-height:40px}.letter-scroll{padding-left:20px;padding-right:20px}.letter-sheet h2{font-size:35px}.envelope-address strong{font-size:23px}.envelope-stamp{right:16px;bottom:63px;width:29px}.letter-toolbar-label span{font-size:9px}}
+ @media(max-height:500px){.letter-modal{height:calc(100svh - 16px);height:calc(100dvh - 16px)}.letter-toolbar{min-height:51px;padding-top:5px;padding-bottom:5px}.letter-footer{padding-top:9px;padding-bottom:10px}.letter-scroll{padding-top:24px}.letter-toolbar-label>svg{width:18px;height:18px}.letter-action{min-height:40px}}
+ @media(prefers-reduced-motion:reduce){.letter-modal.visible .letter-sheet,.letter-copy .typing-active::after{animation:none}.envelope-wrap,.envelope-slip,.envelope-wrap .flap,.envelope-wrap .seal,.letter-progress span{transition:none}.envelope-wrap:hover{transform:rotate(-5deg)}.envelope-wrap.open{transform:none}}
+
+
+ :root{--ink:#244a35;--forest:#244a35;--muted:#66785e;--paper:#fbf9ef;--sage:#e7edda;--lime:#dce7bb;--line:#d8dfca;--rose:#deb3b5;--hand-title:'Dancing Script','Segoe Print','Bradley Hand',cursive;--hand-body:'Patrick Hand','Segoe Print','Comic Sans MS',cursive;--serif:var(--hand-title);--sans:var(--hand-body)}
+ *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.8 var(--sans);overflow-x:clip}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:disabled{cursor:default}a{color:inherit;text-decoration:none}button,a,[tabindex]{touch-action:manipulation}button:focus-visible,a:focus-visible{outline:3px solid #a3b978;outline-offset:6px}svg{display:block;max-width:100%}::selection{background:#d6e5b6;color:#244a35}[hidden]{display:none!important}.wrap,.inner{width:min(1160px,calc(100% - 112px));margin-inline:auto}.overline,.chapter-num{font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:500;color:var(--muted)}.section-title,.heading{font:400 clamp(38px,4.7vw,65px)/1.12 var(--serif);letter-spacing:-.055em;margin:18px 0 22px}.section-title em{font-weight:400;color:#748c55}.body-copy,.lead{font-size:14px;line-height:1.95;color:var(--muted)}.button,.pill{display:inline-flex;justify-content:center;align-items:center;gap:18px;min-height:50px;padding:13px 22px;border:1px solid var(--ink);border-radius:30px;color:var(--paper);background:var(--ink);font-size:12px;font-weight:500;transition:transform .25s,background .25s,box-shadow .25s}.button:hover,.pill:hover{transform:translateY(-3px);box-shadow:0 8px 22px #26452b16}.button svg,.pill svg{width:18px;height:18px}.button-light{background:var(--paper);color:var(--ink);border-color:#d4dec3}.text-link{display:inline-flex;align-items:center;gap:12px;padding:10px 0;font-size:12px;border-bottom:1px solid #aab795}.text-link svg{width:16px;height:16px}.soft-note{font-size:10px;letter-spacing:.025em;color:#7c886b}.anchor-alias{position:absolute;top:0;left:0;scroll-margin-top:0}
+ .scroll-progress{position:fixed;inset:0 0 auto;height:3px;background:transparent;z-index:99;pointer-events:none}.scroll-progress span{display:block;height:100%;width:100%;background:#8aab62;transform:scaleX(0);transform-origin:left}.site-header{position:fixed;top:0;left:0;width:100%;height:82px;z-index:40;display:flex;align-items:center;justify-content:space-between;padding:0 4vw;border-bottom:1px solid transparent;transition:background .3s,color .3s,border-color .3s}.scrolled .site-header{background:#fbf9efe8;backdrop-filter:blur(14px);border-color:#d9e1cb80}.brand{display:flex;gap:10px;align-items:center;font:500 25px/1 var(--serif);letter-spacing:-.05em}.brand svg{width:28px;height:28px}.header-right{display:flex;align-items:center;gap:32px}.header-links{display:flex;align-items:center;gap:26px;font-size:11px}.header-links a{padding:12px 0;position:relative}.header-links a::after{content:'';position:absolute;bottom:7px;left:0;right:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .25s}.header-links a:hover::after{transform:scaleX(1)}.header-date{font-size:11px;letter-spacing:.1em;border-left:1px solid var(--line);padding-left:26px}.audio-toggle{width:42px;height:42px;border:1px solid var(--line);border-radius:50%;color:var(--ink);background:transparent;display:grid;place-items:center;position:relative}.audio-toggle svg{width:18px;height:18px}.audio-toggle[aria-pressed=true]{background:#dde8c7}.audio-toggle::after{content:'';position:absolute;right:9px;top:9px;width:5px;height:5px;border-radius:50%;background:#9baf82;opacity:0}.audio-toggle[aria-pressed=true]::after{opacity:1}.dark-zone .site-header{color:#f0f1dd;background:#244a35e8;border-color:#f0f1dd18}.dark-zone .audio-toggle{color:#f0f1dd;border-color:#f0f1dd40}.dark-zone .audio-toggle[aria-pressed=true]{color:#244a35}.dark-zone .header-date{border-color:#f0f1dd40}
+ .story-rail{position:fixed;right:15px;top:50%;transform:translateY(-50%);z-index:35;display:grid;gap:1px}.story-rail a{min-height:44px;min-width:44px;display:flex;align-items:center;justify-content:flex-end;gap:10px;padding:8px 11px;font-size:9px}.rail-dot{display:block;width:6px;height:6px;border-radius:50%;background:#8da079;opacity:.35;transition:transform .3s,opacity .3s}.rail-label{opacity:0;transform:translateX(4px);transition:opacity .2s,transform .2s;padding:3px 8px;background:#fbf9eff0;border-radius:12px;pointer-events:none}.story-rail a[aria-current=location] .rail-dot{opacity:1;transform:scale(1.5)}.story-rail a:hover .rail-label,.story-rail a:focus-visible .rail-label{opacity:1;transform:none}.dark-zone .rail-dot{background:#d2e1ae}.dark-zone .rail-label{color:var(--ink)}.chapter-track{display:none}
+ .hero{position:relative;min-height:100svh;overflow:clip}.hero-grid{display:grid;grid-template-columns:1.04fr 1fr;gap:10px;align-items:center;min-height:100svh;padding-top:104px;padding-bottom:75px}.hero-copy{position:relative;z-index:2}.hero-kicker{display:flex;gap:12px;align-items:center;font-size:10px;letter-spacing:.15em;color:#6a7f5d}.hero-kicker i{display:block;width:26px;height:1px;background:#aebd93}.hero h1{font:400 clamp(54px,6.2vw,91px)/1.12 var(--serif);letter-spacing:-.065em;margin:25px 0 24px}.hero h1>span{display:block}.hero h1 em{font-weight:400;color:#7b915c}.hero-copy .body-copy{max-width:395px;margin:0 0 25px;font-size:14px}.hero-recipient{font-size:11px;margin:0 0 28px;color:#738568}.hero-recipient strong{display:inline-block;font:500 27px 'Dancing Script',cursive;color:#537444;margin-left:5px}.hero-art{position:relative;align-self:center;isolation:isolate}.hero-art svg{width:100%;max-height:77svh}.hero-art::after{content:'một chút dịu dàng, dành riêng cho em';display:block;text-align:center;font-size:10px;color:#7e8e6b;letter-spacing:.06em;margin-top:-13px}.hero-art .hero-botanical{will-change:transform}.hero-art-label{position:absolute;top:23%;left:-8px;font-size:10px;background:#fffcf4;border:1px solid #dbe0cc;border-radius:25px;padding:8px 13px;box-shadow:0 7px 20px #354f3510;transform:rotate(-9deg)}.hero-bottom{position:absolute;left:4vw;bottom:24px;display:flex;align-items:center;gap:12px;color:#7b8d67;font-size:10px;letter-spacing:.04em}.scroll-mouse{width:18px;height:27px;border:1px solid #abb997;border-radius:10px;position:relative}.scroll-mouse::after{content:'';position:absolute;width:2px;height:5px;background:#7f9468;top:6px;left:7px;animation:scroll-nudge 2s ease-in-out infinite}.hero-dedication{position:absolute;right:5vw;bottom:22px;font-size:10px;letter-spacing:.07em;color:#8a9678}.hero-spark,.story-spark{transform-box:fill-box;transform-origin:center;animation:twinkle 4s ease-in-out infinite;animation-play-state:paused}.hero-spark:nth-last-child(3){animation-delay:-2s}.in-view .hero-spark,.in-view .story-spark{animation-play-state:running}.butterfly-wing{transform-box:fill-box;transform-origin:center;animation:wingbeat 2.8s ease-in-out infinite;animation-play-state:paused}.in-view .butterfly-wing{animation-play-state:running}
+ .story-scroll{position:relative;height:235svh;background:#eef1e3;isolation:isolate}.story-scroll::before{content:'';position:absolute;top:-1px;left:0;right:0;height:34px;background:var(--paper);clip-path:ellipse(55% 82% at 50% 0)}.sticky-frame{position:sticky;top:0;height:100svh;padding:105px 0 65px;display:flex;align-items:center}.story-grid{display:grid;grid-template-columns:1fr 1fr;grid-template-areas:'art heading' 'art steps';column-gap:75px;row-gap:8px;align-content:center;align-items:start}.story-head{grid-area:heading}.story-head .section-title{max-width:430px}.story-head .body-copy{max-width:350px;margin-bottom:14px}.story-art{grid-area:art;align-self:center;position:relative}.story-art svg{width:100%;max-height:69svh}.story-art .art-label{position:absolute;bottom:6%;left:50%;transform:translateX(-50%);white-space:nowrap;font:italic 19px var(--serif);color:#758a60}.story-steps{grid-area:steps;list-style:none;padding:0;margin:8px 0 0}.story-step{display:grid;grid-template-columns:31px 1fr;gap:12px;border-left:1px solid #cbd7b8;padding:11px 0 13px 18px;color:#687a5f;transition:color .3s,border-color .3s}.story-step .step-number{font-size:10px;letter-spacing:.04em;padding-top:3px;color:#7b9165}.story-step p{margin:0;font-size:13px;line-height:1.85;max-width:345px}.story-step.is-current{color:var(--ink);border-left-color:#66864b}.story-step.is-current .step-number{color:#345c35;font-weight:600}.story-thanks{font-size:11px;color:#6b7c5d;margin:15px 0 0;max-width:350px;line-height:1.8}.story-dust{position:absolute;inset:0;pointer-events:none;overflow:clip}.story-dust i{position:absolute;width:4px;height:4px;border-radius:50%;background:#b6c396;opacity:.5}.story-dust i:nth-child(1){left:7%;top:18%}.story-dust i:nth-child(2){right:19%;top:15%}.story-dust i:nth-child(3){left:39%;top:80%}
+ .quiet{position:relative;min-height:112svh;background:#244a35;color:#f2f1dd;display:grid;align-items:center;padding:120px 0 115px;overflow:clip}.quiet::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,#45633b55,transparent 64%);pointer-events:none}.quiet-inner{position:relative;max-width:890px;margin:auto;text-align:center;width:calc(100% - 50px)}.quiet .overline{color:#c5d2ad}.quiet h2{font:400 clamp(42px,5.8vw,79px)/1.22 var(--serif);letter-spacing:-.045em;margin:27px auto 38px;max-width:850px}.quiet h2 .line{display:block}.quiet .read-word{color:#afc2a4;transition:color .35s}.quiet .read-word.lit{color:#f5f3dd}.quiet h2 em{font-weight:400;color:#dae5b6}.quiet-copy{max-width:520px;margin:auto;color:#c8d6bc;font-size:14px;line-height:2.05}.quiet-copy p{margin:15px 0}.quiet-vow{font:italic 29px/1.5 var(--serif);color:#e9eecf;margin:30px 0!important}.quiet-next{display:inline-flex;align-items:center;gap:13px;margin-top:28px;font-size:11px;color:#d3dfbd;border-bottom:1px solid #7e9b6b;padding-bottom:8px}.quiet-next svg{width:15px;height:15px}.quiet-star{position:absolute;width:5px;height:5px;background:#dce4ab;border-radius:50%;opacity:.25;animation:quiet-glimmer 5s ease-in-out infinite;animation-play-state:paused}.quiet.in-view .quiet-star{animation-play-state:running}.quiet-star:nth-of-type(1){left:14%;top:22%;animation-delay:-2s}.quiet-star:nth-of-type(2){right:12%;top:37%;animation-delay:-1s}.quiet-star:nth-of-type(3){left:22%;bottom:19%;animation-delay:-3s}.quiet-star:nth-of-type(4){right:24%;bottom:22%;animation-delay:-4s}.quiet-heart{width:29px;height:29px;margin:0 auto 27px;color:#d9dfb3}.quiet-heart svg{width:100%}
+ .bouquet-scroll{height:290svh;position:relative;background:#f1f3e5}.bouquet-scroll::before{content:'';position:absolute;top:0;left:0;right:0;height:38px;background:#244a35;clip-path:ellipse(55% 90% at 50% 0)}.bouquet-grid{display:grid;grid-template-columns:.82fr 1.28fr;gap:42px;align-items:center}.bouquet-copy .section-title{font-size:clamp(38px,4vw,56px);max-width:440px}.bouquet-copy .body-copy{max-width:320px;margin:0 0 20px}.bouquet-route{display:flex;align-items:center;gap:7px;margin:24px 0 24px}.bouquet-route span{font-size:9px;padding:5px 9px;border:1px solid #d3dec1;border-radius:18px;color:#728361;white-space:nowrap;transition:background .3s,color .3s}.bouquet-route i{width:13px;height:1px;background:#c6d3b3}.bouquet-route span.is-current{background:#e0e9ce;color:#355c36;border-color:#a9bd8f}.bouquet-stage{position:relative;isolation:isolate}.bouquet-stage::before{content:'';position:absolute;inset:7% 5% 9%;border-radius:50%;background:radial-gradient(ellipse,#fbfbef,#e4ebd500 70%);z-index:-1}.bouquet-stage .bouquet-art{width:100%;height:auto;max-height:60svh;overflow:visible}.bouquet-art .gift-plant{cursor:pointer;outline:none}.bouquet-art .plant-stem{stroke-dasharray:400;stroke-dashoffset:400}.plant-petals{opacity:0}.plant-leaves{opacity:0}.gift-plant:focus-visible .plant-focus{opacity:1!important;stroke-dasharray:3 4}.gift-plant:hover .plant-focus{opacity:.55!important}.plant-hit{pointer-events:all}.bouquet-caption{font:italic 18px/1.5 var(--serif);text-align:center;color:#6b8253;margin:-4px 0 12px;min-height:27px}.flower-wish{padding:17px 0 0;border-top:1px solid #d1dcc0;max-width:355px;min-height:125px}.flower-wish-label{display:block;font-size:10px;letter-spacing:.15em;text-transform:uppercase;font-weight:500;color:#577345;margin-bottom:9px}.flower-wish p{margin:0;font-size:12px;line-height:1.95;color:#667a59}.bouquet-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:21px}.bouquet-controls .button{font-size:11px;padding:12px 18px;gap:10px}.bouquet-controls .button:disabled{background:#e2e9d6;color:#758966;border-color:#d1ddbf;box-shadow:none;transform:none}.bloom-now{font-size:11px;padding:10px 0;background:none;border:0;border-bottom:1px solid #afc299;color:#667f52}.bloom-now:disabled{opacity:.65;border-bottom-color:transparent}.bouquet-letter-link{font-size:11px;display:inline-flex;align-items:center;gap:8px;margin-top:18px;line-height:1.7}.bouquet-letter-link svg{width:15px;height:15px}.gift-confirmation{font:italic 21px/1.6 var(--serif);color:#426638;min-height:35px;margin-top:12px}.flower-particle{position:fixed;pointer-events:none;z-index:90;width:12px;height:17px;border-radius:70% 0 70% 0;left:var(--x);top:var(--y);background:var(--color);animation:petal-drift 1.8s cubic-bezier(.12,.55,.32,1) forwards}.gifted .bouquet-stage::before{background:radial-gradient(ellipse,#fff9df,#e6ecd600 72%)}
+ .lettersection{padding:130px 0 120px;min-height:100svh;display:flex;align-items:center;position:relative}.lettersection .letter-layout{width:min(1080px,calc(100% - 112px));gap:80px}.lettersection .letter-intro .heading{font-family:var(--serif);font-weight:400;letter-spacing:-.055em;font-size:clamp(42px,4.6vw,62px);line-height:1.17}.lettersection .letter-intro .lead{font-size:14px}.ending{position:relative;overflow:clip;background:#e0e9cd;text-align:center;padding:100px 24px 90px}.ending .overline{color:#6d8157}.ending h2{font:400 clamp(37px,4.8vw,68px)/1.28 var(--serif);letter-spacing:-.045em;max-width:860px;margin:26px auto}.ending h2 em{color:#708850;font-weight:400}.ending .signature{font:500 39px 'Dancing Script',cursive;color:#627f48;margin:24px 0 30px}.ending-small{font-size:11px;color:#778967}.ending-bloom{width:52px;height:52px;margin:0 auto 27px}.site-footer{background:#e0e9cd;padding:0 4vw 30px;color:#6a7e57;font-size:10px}.footer-line{display:flex;gap:20px;justify-content:space-between;border-top:1px solid #bdcda7;padding-top:24px}.footer-line a{display:flex;gap:10px;align-items:center}.footer-line svg{width:12px;height:12px}
+ .motion-ready [data-reveal]{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s cubic-bezier(.16,1,.3,1);transition-delay:var(--delay,0ms)}.motion-ready [data-reveal].is-visible{opacity:1;transform:none}.site-toast{position:fixed;left:50%;bottom:30px;transform:translate(-50%,12px);padding:11px 20px;background:#244a35;color:#faf7e8;border-radius:30px;font-size:12px;z-index:95;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;max-width:90vw;text-align:center}.site-toast.show{opacity:1;transform:translate(-50%,0)}.page-hidden *{animation-play-state:paused!important}
+ @keyframes twinkle{0%,100%{opacity:.35;scale:.8}50%{opacity:1;scale:1.08}}@keyframes wingbeat{0%,100%{scale:1 1}50%{scale:.65 1}}@keyframes quiet-glimmer{0%,100%{opacity:.13}50%{opacity:.6}}@keyframes scroll-nudge{0%,100%{translate:0 0;opacity:.4}50%{translate:0 6px;opacity:1}}@keyframes petal-drift{0%{transform:translate(0,0) rotate(0);opacity:0}15%{opacity:.85}100%{transform:translate(var(--dx),var(--dy)) rotate(var(--rot));opacity:0}}
+ @media(min-width:1500px){.hero-art svg{max-height:720px}.story-art svg{max-height:620px}.bouquet-stage .bouquet-art{max-height:640px}}
+ @media(max-width:1000px){.wrap,.inner{width:calc(100% - 80px)}.hero-grid{gap:0;grid-template-columns:1.05fr .95fr}.hero h1{font-size:clamp(45px,6.5vw,64px)}.hero-copy .body-copy{font-size:13px}.hero-art-label{left:-9px;font-size:9px;top:23%}.story-grid{column-gap:40px}.section-title{font-size:43px}.bouquet-grid{gap:18px;grid-template-columns:.9fr 1.1fr}.bouquet-copy .section-title{font-size:42px}.bouquet-controls .button{font-size:10px;padding:11px 14px}.lettersection .letter-layout{width:calc(100% - 80px);gap:42px}.lettersection .letter-intro .heading{font-size:47px}.story-rail{right:5px}.hero-dedication{display:none}}
+ @media(max-width:700px){
+  html{scroll-padding-top:73px}.wrap,.inner{width:calc(100% - 42px)}.site-header{height:67px;padding:0 21px}.brand{font-size:23px}.brand svg{width:24px;height:24px}.header-right{gap:17px}.header-links{display:none}.header-date{border:0;padding:0;font-size:10px}.audio-toggle{width:38px;height:38px}.story-rail{display:none}.chapter-track{display:block;position:fixed;bottom:max(12px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:.04em;background:#fbf9efeb;box-shadow:0 3px 20px #2d4c3210;border:1px solid #d8e0c9;color:#667d53;backdrop-filter:blur(12px);padding:6px 13px;border-radius:20px;z-index:35;white-space:nowrap;pointer-events:none;transition:opacity .3s}.at-end .chapter-track{opacity:0}.hero-grid{grid-template-columns:1fr;gap:5px;padding-top:119px;padding-bottom:65px;min-height:auto}.hero-copy{text-align:center}.hero-kicker{justify-content:center;font-size:8px;letter-spacing:.14em}.hero h1{font-size:clamp(43px,11.8vw,67px);line-height:1.14;margin:23px 0 20px}.hero-copy .body-copy{max-width:320px;margin:0 auto 18px;font-size:12px}.hero-recipient{font-size:10px;margin:0 0 23px}.hero-recipient strong{font-size:24px;display:block;margin:4px 0 0}.hero .button{font-size:11px;min-height:46px;padding:11px 20px}.hero-art{width:min(100%,380px);margin:10px auto 0}.hero-art svg{max-height:430px}.hero-art-label{top:23%;left:4%;font-size:8px;padding:6px 11px}.hero-art::after{font-size:9px;margin-top:-7px}.hero-bottom{position:relative;left:auto;bottom:auto;justify-content:center;margin:-23px 0 36px;font-size:9px;gap:9px}.scroll-mouse{scale:.85}.overline,.chapter-num{font-size:8px;letter-spacing:.17em}.section-title,.heading{font-size:36px;line-height:1.18;margin:14px 0 15px}.story-scroll{height:208svh}.sticky-frame{padding:83px 0 48px}.story-grid{grid-template-columns:1fr;grid-template-areas:'heading' 'art' 'steps';row-gap:5px;align-content:center}.story-head{text-align:center}.story-head .section-title{max-width:340px;margin:11px auto 11px;font-size:33px;line-height:1.16}.story-head .body-copy{font-size:11px;line-height:1.75;max-width:290px;margin:0 auto}.story-art{width:210px;margin:0 auto}.story-art svg{max-height:29svh}.story-art .art-label{font-size:14px;bottom:0}.story-steps{margin:6px auto 0;width:min(100%,335px)}.story-step{padding:7px 0 9px 13px;grid-template-columns:23px 1fr;gap:7px}.story-step .step-number{font-size:9px}.story-step p{font-size:11px;line-height:1.75}.story-thanks{font-size:9px;line-height:1.7;margin:10px 0 0;max-width:320px}.quiet{min-height:112svh;padding:105px 0 100px}.quiet-inner{width:calc(100% - 45px)}.quiet h2{font-size:clamp(36px,9.4vw,50px);line-height:1.25;max-width:400px;margin:24px auto 29px}.quiet-copy{font-size:12px;line-height:1.95;max-width:310px}.quiet-vow{font-size:23px;margin:25px 0!important}.quiet-next{font-size:10px;max-width:290px;line-height:1.8;margin-top:22px}.quiet-heart{width:25px;margin-bottom:23px}.quiet-star:nth-of-type(1){left:8%;top:13%}.quiet-star:nth-of-type(2){right:8%;top:20%}.bouquet-scroll{height:242svh}.bouquet-grid{grid-template-columns:1fr;gap:0;position:relative;align-items:start;align-content:center;max-width:430px}.bouquet-copy{text-align:center;display:contents}.bouquet-copy>.overline{display:block;text-align:center;order:0}.bouquet-copy .section-title{order:1;text-align:center;font-size:33px;max-width:330px;margin:11px auto 12px;line-height:1.17}.bouquet-copy .body-copy{order:2;text-align:center;font-size:11px;line-height:1.75;max-width:290px;margin:0 auto}.bouquet-route{order:3;justify-content:center;margin:14px 0 0;gap:6px}.bouquet-route span{font-size:8px;padding:3px 8px}.bouquet-route i{width:9px}.bouquet-visual{order:4;margin:-3px -8px 0}.bouquet-stage .bouquet-art{max-height:31svh;width:100%}.bouquet-caption{font-size:14px;margin:0 0 9px;min-height:21px}.flower-wish{order:5;max-width:310px;min-height:80px;margin:0 auto;padding-top:11px;text-align:center;width:100%}.flower-wish-label{font-size:8px;margin-bottom:5px}.flower-wish p{font-size:10px;line-height:1.8}.bouquet-controls{order:6;justify-content:center;margin:11px auto 0;gap:12px}.bouquet-controls .button{font-size:10px;min-height:43px;padding:10px 16px}.bloom-now{font-size:9px;min-height:42px}.bouquet-letter-link{order:8;justify-content:center;margin-top:12px;font-size:9px}.gift-confirmation{order:7;text-align:center;font-size:16px;min-height:0;margin:8px 0 0}.gift-confirmation:empty{display:none}.lettersection{padding:100px 0 95px;min-height:0}.lettersection .letter-layout{width:calc(100% - 42px);gap:30px;max-width:440px}.lettersection .letter-intro .heading{font-size:37px;max-width:330px;margin-top:15px}.lettersection .letter-intro .lead{font-size:12px;max-width:305px}.ending{padding:86px 23px 70px}.ending h2{font-size:35px;line-height:1.3;margin-top:20px}.ending .signature{font-size:32px}.ending-small{font-size:10px;max-width:280px;margin:auto;line-height:1.8}.ending-bloom{width:43px;height:43px}.footer-line{font-size:9px;flex-direction:column;align-items:center;gap:15px;text-align:center}.site-footer{padding-bottom:36px}.site-toast{font-size:11px;bottom:54px;width:max-content;max-width:90vw}
+ }
+ @media(max-width:360px){.hero h1{font-size:40px}.hero-kicker{font-size:7px}.section-title{font-size:31px}.bouquet-copy .section-title,.story-head .section-title{font-size:29px}.bouquet-route{gap:4px}.bouquet-route span{font-size:7px}.story-art svg{max-height:26svh}.hero-copy .body-copy{font-size:11px}.lettersection .letter-intro .heading{font-size:34px}}
+ @media(max-height:740px) and (min-width:701px){.sticky-frame{padding-top:85px;padding-bottom:35px}.story-head .section-title,.bouquet-copy .section-title{font-size:41px}.story-step{padding-top:7px;padding-bottom:9px}.bouquet-route{margin:14px 0}.flower-wish{min-height:105px;padding-top:12px}.bouquet-controls{margin-top:14px}.story-thanks{margin-top:9px}}
+ .static-scenes .story-scroll,.static-scenes .bouquet-scroll{height:auto}.static-scenes .sticky-frame{position:relative;height:auto;min-height:0;padding-top:110px;padding-bottom:95px}.static-scenes .story-grid{align-content:center}.static-scenes .story-art svg{max-height:540px}.static-scenes .bouquet-stage .bouquet-art{max-height:560px}.static-scenes .hero-botanical{transform:none!important}
+ @media(max-width:700px){.static-scenes .sticky-frame{padding-top:90px;padding-bottom:75px}.static-scenes .story-art{width:230px;margin:15px auto}.static-scenes .story-art svg{max-height:270px}.static-scenes .bouquet-stage .bouquet-art{max-height:340px}.static-scenes .bouquet-visual{margin-top:12px}}
+ @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.motion-ready [data-reveal]{opacity:1;transform:none}.hero-botanical{transform:none!important}}
+ html:not(.js) #storyStem{stroke-dashoffset:0}html:not(.js) #storyLeaves,html:not(.js) #storyRoots,html:not(.js) #storyFlower,html:not(.js) .plant-petals,html:not(.js) .plant-leaves{opacity:1}html:not(.js) #storyFlower{transform:translate(260px,145px) scale(1)}html:not(.js) .plant-stem{stroke-dashoffset:0}html:not(.js) .plant-bud{opacity:0}html:not(.js) .story-scroll,html:not(.js) .bouquet-scroll{height:auto}html:not(.js) .sticky-frame{position:relative;height:auto;padding-block:100px}.no-script-letter{max-width:680px;padding:30px;margin:30px auto;background:#fffdf4;border:1px solid var(--line)}
+
+ .hero-flower{transform-box:fill-box;transform-origin:center;animation:daisy-sway 6s ease-in-out infinite;animation-play-state:paused}.hero-flower-two{animation-delay:-2s}.hero-flower-three{animation-delay:-4s}.in-view .hero-flower{animation-play-state:running}.hero-sun{transform-box:fill-box;transform-origin:center;animation:sun-breathe 5s ease-in-out infinite;animation-play-state:paused}.in-view .hero-sun{animation-play-state:running}@keyframes daisy-sway{0%,100%{rotate:-3deg}50%{rotate:3deg}}@keyframes sun-breathe{0%,100%{scale:1}50%{scale:1.04}}
+
+ /* Compact pinned composition; shorter phones use ordinary, animated scrolling. */
+ #bouquetPaper,#bouquetRibbon,#bouquetTag,#bouquetSoil{pointer-events:none}
+ @media(max-width:700px){
+  .story-head .body-copy{font-size:12px}.story-step p{font-size:12px}.story-thanks{font-size:10px}
+  .bouquet-copy .section-title{font-size:30px;line-height:1.14;margin:9px auto}.bouquet-copy .body-copy{font-size:11px;max-width:340px}.bouquet-copy .body-copy br{display:none}.bouquet-route{margin-top:8px}.bouquet-stage .bouquet-art{max-height:27svh}.bouquet-caption{font-size:13px;margin-bottom:6px}.flower-wish{min-height:74px;padding-top:9px}.flower-wish p{font-size:11px;line-height:1.75}.bouquet-controls{margin-top:7px}.bouquet-letter-link{margin-top:9px}.bouquet-route span{font-size:8px}
+  .static-scenes .bouquet-copy .section-title{font-size:36px}.static-scenes .bouquet-copy .body-copy{font-size:12px;max-width:315px}.static-scenes .flower-wish{min-height:100px;margin-top:10px}.static-scenes .flower-wish p{font-size:12px}.static-scenes .bouquet-controls .button{font-size:11px;min-height:47px}.static-scenes .bouquet-letter-link{font-size:10px}.static-scenes .bouquet-stage .bouquet-art{max-height:340px}.static-scenes .story-head .body-copy{font-size:12px}.static-scenes .story-step p{font-size:13px}.static-scenes .story-step{padding-top:10px;padding-bottom:12px}
+ }
+
+ /* Handwritten typography: flowing titles, clear handwritten reading text. */
+ :root{
+  --hand-title:'Dancing Script','Segoe Print','Bradley Hand',cursive;
+  --hand-body:'Patrick Hand','Segoe Print','Comic Sans MS',cursive;
+  --serif:var(--hand-title);
+  --sans:var(--hand-body);
+ }
+ body{font-family:var(--hand-body);font-size:18px;line-height:1.6;font-weight:400}
+ .hero h1,.section-title,.heading,.quiet h2,.ending h2,.brand,
+ .lettersection .letter-intro .heading{font-family:var(--hand-title);letter-spacing:0;font-weight:600}
+ .hero h1{line-height:1.16}
+ .section-title,.heading{line-height:1.18}
+ .quiet h2,.ending h2{line-height:1.25}
+ .hero h1 em,.section-title em,.quiet h2 em,.ending h2 em,
+ .story-art .art-label,.quiet-vow,.bouquet-caption,.gift-confirmation{font-style:normal}
+ .brand{font-size:31px}
+ .header-links{font-family:var(--hand-body);font-size:17px}
+ .header-date{font-family:var(--hand-body);font-size:16px;letter-spacing:.03em}
+ .overline,.chapter-num,.hero-kicker{font-family:var(--hand-body);font-size:13px;letter-spacing:.04em;font-weight:400}
+ .body-copy,.lead,.hero-copy .body-copy,.lettersection .letter-intro .lead{font-family:var(--hand-body);font-size:18px;line-height:1.6;font-weight:400}
+ .hero-recipient{font-size:16px}
+ .hero-recipient strong{font-family:var(--hand-title);font-size:30px;font-weight:600}
+ .hero-art-label,.hero-art::after,.hero-bottom,.hero-dedication,.soft-note{font-family:var(--hand-body);font-size:14px;letter-spacing:.015em}
+ .story-step p{font-family:var(--hand-body);font-size:18px;line-height:1.45}
+ .story-step p strong{font-weight:400;color:#31533b}
+ .story-step .step-number{font-family:var(--hand-body);font-size:14px;letter-spacing:0}
+ .story-thanks{font-family:var(--hand-body);font-size:16px;line-height:1.45}
+ .story-art .art-label{font-family:var(--hand-title);font-size:24px;line-height:1.2;font-weight:500}
+ .quiet-copy{font-family:var(--hand-body);font-size:19px;line-height:1.65}
+ .quiet-vow{font-family:var(--hand-title);font-size:35px;line-height:1.3;font-weight:500}
+ .quiet-next{font-family:var(--hand-body);font-size:16px;line-height:1.5}
+ .bouquet-copy .body-copy{font-family:var(--hand-body);font-size:18px;line-height:1.5}
+ .bouquet-route span{font-family:var(--hand-body);font-size:13px;line-height:1.4;letter-spacing:0}
+ .bouquet-caption{font-family:var(--hand-title);font-size:23px;line-height:1.25;font-weight:500}
+ .flower-wish-label{font-family:var(--hand-body);font-size:14px;letter-spacing:.025em;font-weight:400;line-height:1.35}
+ .flower-wish p{font-family:var(--hand-body);font-size:18px;line-height:1.45}
+ .button,.pill,.hero .button,.bouquet-controls .button,.letter-open-control .pill{font-family:var(--hand-body);font-size:17px;font-weight:400;line-height:1.3}
+ .bouquet-controls .button{padding:12px 16px;gap:10px}
+ .bloom-now,.bouquet-letter-link,.text-link{font-family:var(--hand-body);font-size:16px;line-height:1.4;font-weight:400}
+ .gift-confirmation{font-family:var(--hand-title);font-size:27px;line-height:1.3;font-weight:500}
+ .story-rail a,.chapter-track{font-family:var(--hand-body);font-size:13px;letter-spacing:.01em}
+ .ending .signature{font-family:var(--hand-title);font-size:43px;font-weight:600}
+ .ending-small{font-family:var(--hand-body);font-size:17px;line-height:1.6}
+ .site-footer,.footer-line,.site-toast{font-family:var(--hand-body);font-size:15px;line-height:1.5}
+ /* The envelope, paper and animated copy all use the same handwriting system. */
+ .desk-note,.envelope-slip strong,.envelope-address strong,.letter-sheet h2,
+ .letter-sheet .letter-copy .letter-signature{font-family:var(--hand-title)}
+ .desk-note{font-size:27px}
+ .letter-intro-note,.letter-open-hint{font-family:var(--hand-body);font-size:16px;line-height:1.5}
+ .envelope-slip small,.envelope-address small{font-family:var(--hand-body);font-size:12px;letter-spacing:.03em;line-height:1.3}
+ .envelope-stamp{font-family:var(--hand-body);font-size:12px;line-height:1.1}
+ .letter-toolbar-label{font-family:var(--hand-body);font-size:14px;line-height:1.35}
+ .letter-toolbar-label strong{font-size:13px;letter-spacing:.025em;font-weight:400}
+ .letter-toolbar-label span{font-size:14px;line-height:1.3}
+ .letter-date{font-family:var(--hand-body);font-size:13px;letter-spacing:.04em;line-height:1.35}
+ .letter-sheet h2{font-weight:600;letter-spacing:0;line-height:1.22}
+ .letter-sheet .letter-copy p{font-family:var(--hand-body);font-size:21px;line-height:1.6;font-weight:400;letter-spacing:.005em;margin-bottom:19px}
+ .letter-sheet .letter-copy p:first-child{font-family:var(--hand-body);font-size:22px;font-weight:400}
+ .letter-copy strong{font-weight:400;color:#31573b}
+ .letter-sheet .letter-copy .letter-signature{font-size:33px;line-height:1.35;font-weight:600;letter-spacing:0}
+ .letter-sheet .letter-copy .letter-signature small{font-family:var(--hand-body);font-size:13px;line-height:1.4;letter-spacing:.025em;font-weight:400}
+ .letter-status{font-family:var(--hand-body);font-size:15px;line-height:1.35}
+ .letter-status small{font-family:var(--hand-body);font-size:13px;line-height:1.35}
+ .letter-action{font-family:var(--hand-body);font-size:16px;line-height:1.3;font-weight:400}
+ #bouquetTag text{font-family:var(--hand-body);font-size:9px;letter-spacing:.25px}
+ #bouquetTag text:last-child{font-family:var(--hand-title);font-size:15px;font-weight:600;letter-spacing:0}
+ .no-script-letter{font-family:var(--hand-body);font-size:21px;line-height:1.6}
+ .no-script-letter h2,.no-script-letter .letter-signature{font-family:var(--hand-title)}
+ /* Preserve the compact pinned composition; the paper has its own scroll area. */
+ @media(max-width:1000px) and (min-width:701px){
+  .story-step p{font-size:17px;line-height:1.45}.story-thanks{font-size:15px;line-height:1.4}
+  .bouquet-copy .body-copy{font-size:17px;line-height:1.45}.flower-wish p{font-size:17px;line-height:1.4}
+  .bouquet-controls .button{font-size:16px;padding:12px 14px}.bloom-now{font-size:15px}
+ }
+ @media(max-width:700px){
+  .brand{font-size:28px}.header-date{font-size:15px}.chapter-track{font-size:12px;line-height:1.4}
+  .overline,.chapter-num,.hero-kicker{font-size:11px;letter-spacing:.025em;line-height:1.4}
+  .hero h1{line-height:1.18}.hero-copy .body-copy{font-size:17px;line-height:1.5;max-width:330px}
+  .hero-recipient{font-size:15px;line-height:1.5}.hero-recipient strong{font-size:27px}
+  .hero-art-label,.hero-art::after,.hero-bottom{font-size:12px;line-height:1.4;letter-spacing:0}
+  .hero-art-label{padding:6px 10px}.hero-bottom{gap:8px}
+  .story-head .body-copy,.static-scenes .story-head .body-copy{font-size:16px;line-height:1.35}
+  .story-step p,.static-scenes .story-step p{font-size:16px;line-height:1.35}
+  .story-step .step-number{font-size:12px}.story-thanks{font-size:13px;line-height:1.35}
+  .story-art .art-label{font-size:18px;line-height:1.2}
+  .quiet-copy{font-size:17px;line-height:1.6}.quiet-vow{font-size:28px;line-height:1.3}
+  .quiet-next{font-size:15px;line-height:1.4}
+  .bouquet-copy .body-copy,.static-scenes .bouquet-copy .body-copy{font-size:15px;line-height:1.35;max-width:330px}
+  .bouquet-route span{font-size:11px;line-height:1.3;padding:3px 7px}
+  .bouquet-caption{font-size:18px;line-height:1.2;min-height:22px}
+  .flower-wish-label{font-size:12px;line-height:1.25;letter-spacing:.01em}
+  .flower-wish p,.static-scenes .flower-wish p{font-size:15px;line-height:1.35}
+  .button,.pill,.hero .button,.bouquet-controls .button,.static-scenes .bouquet-controls .button,.letter-open-control .pill{font-size:16px;line-height:1.25}
+  .bouquet-controls .button{padding:10px 14px;gap:8px}.bloom-now{font-size:14px;line-height:1.3}
+  .bouquet-letter-link,.static-scenes .bouquet-letter-link{font-size:14px;line-height:1.35}
+  .gift-confirmation{font-size:23px;line-height:1.25}
+  .lettersection .letter-intro .lead{font-size:17px;line-height:1.5}
+  .letter-intro-note,.letter-open-hint{font-size:15px;line-height:1.4}
+  .desk-note{font-size:24px}.envelope-slip small,.envelope-address small{font-size:11px;line-height:1.2;letter-spacing:.02em}
+  .envelope-stamp{font-size:11px}.letter-toolbar-label strong{font-size:12px;line-height:1.3}
+  .letter-toolbar-label span{font-size:13px;line-height:1.3}.letter-date{font-size:12px;letter-spacing:.02em}
+  .letter-sheet .letter-copy p{font-size:19px;line-height:1.65;margin-bottom:18px}
+  .letter-sheet .letter-copy p:first-child{font-size:20px}
+  .letter-sheet .letter-copy .letter-signature{font-size:30px;line-height:1.35}
+  .letter-sheet .letter-copy .letter-signature small{font-size:12px;line-height:1.3;letter-spacing:.01em}
+  .letter-status{font-size:14px;line-height:1.3}.letter-status small{font-size:12px;line-height:1.3}
+  .letter-action{font-size:15px;line-height:1.25;padding:11px 13px}
+  .ending .signature{font-size:37px}.ending-small{font-size:16px;line-height:1.5}
+  .site-footer,.footer-line,.site-toast{font-size:14px;line-height:1.45}
+ }
+ @media(max-width:359px){
+  .hero-kicker{font-size:10px}.hero-bottom{font-size:11px}.bouquet-controls{gap:8px}
+  .bouquet-controls .button,.static-scenes .bouquet-controls .button{font-size:15px;padding-inline:11px}
+  .bloom-now{font-size:13px}.letter-toolbar-label strong{font-size:11px}.letter-toolbar-label span{font-size:12px}
+  .letter-sheet .letter-copy p{font-size:18px;line-height:1.65}
+ }
+
+
+ /* A quiet, personal closing wish, set in the existing handwritten body font. */
+ .ending .ending-message{font-family:var(--hand-body);max-width:670px;margin:25px auto 28px;font-size:20px;line-height:1.65;color:#4b6442;font-weight:400;text-wrap:pretty}
+ .ending .ending-message p{margin:0 0 20px}
+ .ending .ending-message p:last-child{margin-bottom:0}
+ .ending .signature{max-width:700px;margin-inline:auto}
+ @media(max-width:700px){.ending .ending-message{font-size:18px;line-height:1.65;max-width:100%;margin:23px auto 27px}.ending .ending-message p{margin-bottom:19px}}
+
+ </style>
+</head>
+<body>
+<div class="scroll-progress" aria-hidden="true"><span id="pageProgress"></span></div>
+<header class="site-header">
+ <a class="brand" href="#dau" aria-label="Về đầu câu chuyện"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 10C2 6 10 0 12 8c2-8 10-2 2 2 8 2 2 10-2 4-4 6-10-2-2-2-8-4 0-10 2-2Z"/><circle cx="12" cy="11" r="2.6"/><path d="M12 15v8m0-5c-5 0-6-3-6-3 5-1 6 3 6 3Z"/></svg><span>Gửi em.</span></a>
+ <div class="header-right"><nav class="header-links" aria-label="Điều hướng chính"><a href="#cauchuyen">Câu chuyện</a><a href="#bohoa">Bó hoa</a><a href="#lathu">Lá thư</a></nav><span class="header-date">20 / 11</span><button class="audio-toggle" type="button" id="sound" aria-label="Bật nhạc nền" aria-pressed="false" title="Nhạc nền nhẹ nhàng"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 18V5l10-2v13M9 8l10-2"/><ellipse cx="6" cy="18" rx="3" ry="2.5"/><ellipse cx="16" cy="16" rx="3" ry="2.5"/></svg></button></div>
+</header>
+<nav class="story-rail" aria-label="Các chương của câu chuyện">
+ <a href="#dau" aria-label="Chương 1: Một lời mời" aria-current="location"><span class="rail-label">Một lời mời</span><i class="rail-dot"></i></a>
+ <a href="#cauchuyen" aria-label="Chương 2: Người gieo mầm"><span class="rail-label">Người gieo mầm</span><i class="rail-dot"></i></a>
+ <a href="#guiem" aria-label="Chương 3: Được nâng niu"><span class="rail-label">Được nâng niu</span><i class="rail-dot"></i></a>
+ <a href="#bohoa" aria-label="Chương 4: Những lời nở hoa"><span class="rail-label">Những lời nở hoa</span><i class="rail-dot"></i></a>
+ <a href="#lathu" aria-label="Chương 5: Những lời giữ lại"><span class="rail-label">Những lời giữ lại</span><i class="rail-dot"></i></a>
+</nav>
+<div class="chapter-track" id="chapterTrack" aria-hidden="true">01 · Một lời mời</div>
+<main>
+ <section class="hero" id="dau" data-chapter="01 · Một lời mời" data-ambient>
+  <div class="wrap hero-grid">
+   <div class="hero-copy">
+    <div class="hero-kicker" data-reveal><i></i>NGÀY NHÀ GIÁO VIỆT NAM · 20.11</div>
+    <h1 data-reveal style="--delay:90ms"><span>Em gieo mầm.</span><span><em>Anh gửi thương.</em></span></h1>
+    <p class="body-copy" data-reveal style="--delay:180ms">Em yêu, hôm nay mình chậm lại một chút nhé. Anh có một câu chuyện nhỏ muốn kể — bắt đầu từ một hạt mầm, và kết thúc bằng những lời dành riêng cho em.</p>
+    <p class="hero-recipient" data-reveal style="--delay:240ms">Dành riêng cho <strong>Hương Giang</strong></p>
+    <a class="button" href="#cauchuyen" data-reveal style="--delay:300ms">Mình bắt đầu nhé<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a>
+   </div>
+   <div class="hero-art" data-reveal style="--delay:180ms"><svg class="hero-botanical" viewBox="0 0 560 620" fill="none" role="img" aria-labelledby="heroArtTitle" xmlns="http://www.w3.org/2000/svg">
+    <title id="heroArtTitle">Một cuốn sách mở ra những mầm xanh và ba bông hoa dịu dàng</title>
+    <defs>
+     <linearGradient id="heroArchPaint" x1="120" y1="70" x2="420" y2="550" gradientUnits="userSpaceOnUse"><stop stop-color="#e0e9cd"/><stop offset="1" stop-color="#edf0dc"/></linearGradient>
+     <linearGradient id="heroPaperPaint" x1="180" y1="428" x2="300" y2="529" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf2"/><stop offset="1" stop-color="#eee9d4"/></linearGradient>
+    </defs>
+    <path d="M104 258C104 143 175 65 279 65C383 65 455 143 455 258V426C455 514 387 557 279 557C172 557 104 514 104 426Z" fill="url(#heroArchPaint)"/>
+    <path d="M88 276C88 145 170 48 279 48C388 48 473 145 473 276V425C473 523 397 576 279 576C161 576 88 523 88 425" stroke="#c5d2ae" stroke-width="1.2"/>
+    <path d="M112 410C207 381 334 410 451 390" stroke="#cdd8b9" stroke-width="1.3" stroke-dasharray="3 8"/>
+    <ellipse cx="281" cy="537" rx="171" ry="18" fill="#637b4f" opacity=".08"/>
+    <g class="hero-sun" transform="translate(432 117)">
+     <circle r="29" fill="#ecdb9e"/><circle cx="-8" cy="0" r="1.7" fill="#777945"/><circle cx="8" cy="0" r="1.7" fill="#777945"/>
+     <path d="M-6 7Q0 12 6 7" stroke="#777945" stroke-width="1.5" stroke-linecap="round"/>
+     <path d="M0 -40V-47M0 40V47M40 0H47M-40 0H-47M28 -28L34 -34M-28 28L-34 34M28 28L34 34M-28 -28L-34 -34" stroke="#cfc489" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <g stroke="#6c8d61" stroke-width="4.5" stroke-linecap="round">
+     <path d="M274 468C250 406 172 355 181 221"/>
+     <path d="M278 467C293 376 325 287 324 157"/>
+     <path d="M284 469C309 429 372 397 386 304"/>
+    </g>
+    <g>
+     <path d="M224 388C179 395 147 366 149 338C188 337 216 355 224 388Z" fill="#8eac78"/>
+     <path d="M212 352C235 321 235 289 219 276C192 302 192 327 212 352Z" fill="#b0c59a"/>
+     <path d="M300 361C349 353 366 323 360 298C325 304 304 329 300 361Z" fill="#7e9f6f"/>
+     <path d="M310 312C272 298 260 268 270 244C303 260 317 284 310 312Z" fill="#a9c298"/>
+     <path d="M332 412C370 426 402 411 411 389C380 378 351 386 332 412Z" fill="#9cb98b"/>
+     <path d="M316 415C295 389 294 367 310 349C329 370 330 391 316 415Z" fill="#c0cfa8"/>
+     <path d="M184 297C150 285 134 263 140 246C169 251 187 273 184 297Z" fill="#c2d1ad"/>
+     <path d="M329 245C351 234 366 212 358 198C337 204 326 223 329 245Z" fill="#91ae80"/>
+     <path d="M170 353L216 383M276 258L308 306M354 312L306 357M404 396L341 410" stroke="#64865b" stroke-width="1.1" stroke-linecap="round" opacity=".42"/>
+    </g>
+    <g class="hero-flower hero-flower-one" transform="translate(181 217) rotate(-13)"><g transform="rotate(0)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(36)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(72)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(108)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(144)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(180)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(216)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(252)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(288)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(324)"><ellipse class="" cx="0" cy="-27.84" rx="12.24" ry="22.08" fill="#fff8e6" stroke="#ede5cf" stroke-width="1.15"/></g><circle r="13.92" fill="#dbc179"/><circle cy="-1.92" r="10.56" fill="#e9d28c"/><circle cx="-4.8" cy="-4.32" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="4.32" cy="-2.88" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="-0.96" cy="4.8" r="1.35" fill="#c3a258" opacity=".7"/></g>
+    <g class="hero-flower hero-flower-two" transform="translate(325 153) rotate(11)"><g transform="rotate(0)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(30)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(60)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(90)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(120)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(150)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(180)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(210)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(240)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(270)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(300)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(330)"><ellipse class="" cx="0" cy="-33.06" rx="14.535" ry="26.22" fill="#f9f4df" stroke="#ede5cf" stroke-width="1.15"/></g><circle r="16.53" fill="#c9b76e"/><circle cy="-2.28" r="12.54" fill="#e9d28c"/><circle cx="-5.7" cy="-5.13" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="5.13" cy="-3.42" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="-1.14" cy="5.7" r="1.35" fill="#c3a258" opacity=".7"/></g>
+    <g class="hero-flower hero-flower-three" transform="translate(388 288) rotate(14)"><path class="" d="M -39.36 -16.32 Q -44.16 34.56 0 31.68 Q 44.16 34.56 39.36 -16.32 L 14.88 -0.48 L 0 -35.04 L -14.88 -0.48 Z" fill="#e7b5b8" stroke="#d49caa" stroke-width="1.4"/><path class="" d="M -30.72 -12 Q -27.36 21.6 0 31.2 Q 1.44 0.96 -30.72 -12Z" fill="#f0cbca"/><path class="" d="M 30.72 -12 Q 27.36 21.6 0 31.2 Q -1.44 0.96 30.72 -12Z" fill="#e8b7c0"/><path d="M0 31.2Q-5.76 3.84 0 -26.4" stroke="#dba8b0" stroke-width="1.15" fill="none"/></g>
+    <g class="hero-butterfly" transform="translate(103 326) rotate(-18)">
+     <path class="butterfly-wing" d="M0 0C-12-32-36-20-28-3C-26 2-16 7-4 8C-26 5-29 24-15 24C-6 25-1 12 0 0Z" fill="#e5b6ab"/>
+     <path class="butterfly-wing" d="M0 0C12-32 36-20 28-3C26 2 16 7 4 8C26 5 29 24 15 24C6 25 1 12 0 0Z" fill="#f0cfc0"/>
+     <path d="M0 0V19M0 1L-5-7M0 1L5-7" stroke="#7c8a66" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <g class="hero-book">
+     <path d="M111 454L263 482L284 479L438 449L446 512L287 550L266 549L108 516Z" fill="#78916b"/>
+     <path d="M115 446C173 436 221 449 278 474C330 443 386 437 434 444L435 504C379 499 329 516 278 540C221 516 172 503 114 508Z" fill="url(#heroPaperPaint)" stroke="#d7d6be" stroke-width="1.4"/>
+     <path d="M278 474V540" stroke="#d8d3bb" stroke-width="2"/>
+     <path d="M124 497C173 496 220 510 270 530M286 530C340 508 382 495 426 497" stroke="#d1d0b7" stroke-width="1.2"/>
+     <path d="M130 461C179 458 213 470 255 488M130 475C172 473 211 484 255 503M130 489C172 487 207 496 239 509" stroke="#b7c1a1" stroke-width="1.35" stroke-linecap="round"/>
+     <path d="M305 486C343 468 381 459 418 460M305 500C344 482 380 474 418 474M320 508C355 493 383 486 418 488" stroke="#b7c1a1" stroke-width="1.35" stroke-linecap="round"/>
+     <path d="M348 479L365 474V540L356 534L348 544Z" fill="#d5a6a3"/>
+     <path d="M270 541Q278 545 287 541" stroke="#52734c" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <path class="hero-spark" d="M112 149Q112 158 121 158Q112 158 112 167Q112 158 103 158Q112 158 112 149Z" fill="#abb487"/><path class="hero-spark" d="M435 360Q435 369 444 369Q435 369 435 378Q435 369 426 369Q435 369 435 360Z" fill="#b2b781"/><path class="hero-spark" d="M259 86Q259 92 265 92Q259 92 259 98Q259 92 253 92Q259 92 259 86Z" fill="#b9bf94"/>
+    <circle cx="154" cy="115" r="3" fill="#d2bd80"/><circle cx="454" cy="247" r="3" fill="#cfbe89"/>
+    <path d="M405 568C405 560 413 557 418 563C423 557 431 560 431 568C431 576 418 584 418 584C418 584 405 576 405 568Z" fill="#b1c4a0"/>
+   </svg><span class="hero-art-label">một ngày thật dịu dàng ♡</span></div>
+  </div>
+  <div class="hero-bottom"><span class="scroll-mouse" aria-hidden="true"></span>Cuộn chậm thôi, có những điều đang lớn lên.</div>
+  <div class="hero-dedication">MỘT CÂU CHUYỆN NHỎ · TỪ ANH</div>
+ </section>
+
+ <section class="story-scroll" id="cauchuyen" data-chapter="02 · Người gieo mầm" data-ambient aria-labelledby="storyTitle">
+  <div class="sticky-frame"><div class="story-dust" aria-hidden="true"><i></i><i></i><i></i></div>
+   <div class="wrap story-grid">
+    <div class="story-head"><span class="overline">02 / TỪ MỘT HẠT MẦM NHỎ</span><h2 class="section-title" id="storyTitle">Có những điều<br>lớn lên <em>rất khẽ.</em></h2><p class="body-copy">Mỗi ngày, một chút kiên nhẫn.<br>Từng chút một, những điều đẹp đẽ lớn lên.</p></div>
+    <div class="story-art"><svg class="seed-botanical" viewBox="0 0 520 560" fill="none" role="img" aria-labelledby="seedArtTitle" xmlns="http://www.w3.org/2000/svg">
+     <title id="seedArtTitle">Từ một hạt mầm nhỏ, một bông hoa được chăm chút lớn lên</title>
+     <path d="M78 298C48 198 105 91 214 66C331 40 441 103 458 228C472 327 426 418 327 448C211 483 106 424 78 298Z" fill="#e7edda"/>
+     <path d="M91 302C67 204 118 113 219 89C321 65 421 126 434 235C445 328 400 402 316 426" stroke="#ccd7b9" stroke-width="1.1"/>
+     <g id="storyRoots" opacity="0" stroke="#b09c76" stroke-width="2" stroke-linecap="round">
+      <path d="M260 443C258 464 264 484 260 509M259 462C239 468 230 480 223 493M261 476C284 477 298 486 305 501M246 468C245 480 240 488 238 497M277 480C278 492 284 502 284 509"/>
+     </g>
+     <g id="storySoil">
+      <ellipse cx="260" cy="441" rx="154" ry="21" fill="#a9b99a" opacity=".22"/>
+      <path d="M110 429Q184 416 258 425Q339 415 411 431" stroke="#a9ba91" stroke-width="2" stroke-linecap="round"/>
+      <path d="M141 444H160M361 449H378M181 461H192M307 464H324" stroke="#a2ad87" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+      <circle cx="128" cy="438" r="2" fill="#b8b38d"/><circle cx="386" cy="435" r="2.3" fill="#b8b38d"/>
+     </g>
+     <path id="storyStem" d="M260 438C250 395 271 364 261 326C247 280 274 246 262 208C254 183 260 158 260 145" stroke="#759566" stroke-width="6" stroke-linecap="round" pathLength="700" stroke-dasharray="700" stroke-dashoffset="700"/>
+     <g id="storyLeaves" opacity="0">
+      <path d="M260 367C209 372 181 343 186 316C226 318 252 337 260 367Z" fill="#91ad7b"/>
+      <path d="M262 322C307 320 334 290 327 265C290 271 268 293 262 322Z" fill="#a5c08e"/>
+      <path d="M260 269C224 266 204 240 211 220C243 229 259 243 260 269Z" fill="#b6c99e"/>
+      <path d="M261 223C291 219 307 198 300 180C277 186 263 202 261 223Z" fill="#8dac7a"/>
+      <path d="M199 329L252 361M316 278L270 316M220 231L254 264M292 190L267 218" stroke="#66875b" stroke-width="1.2" stroke-linecap="round" opacity=".55"/>
+     </g>
+     <g id="storyFlower" opacity="0" transform="translate(260 145) scale(.05)"><g transform="rotate(0)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(30)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(60)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(90)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(120)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(150)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(180)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(210)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(240)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(270)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(300)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(330)"><ellipse class="" cx="0" cy="-34.22" rx="15.045" ry="27.14" fill="#fffae9" stroke="#ede5cf" stroke-width="1.15"/></g><circle r="17.11" fill="#d6ba6c"/><circle cy="-2.36" r="12.98" fill="#e9d28c"/><circle cx="-5.9" cy="-5.31" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="5.31" cy="-3.54" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="-1.18" cy="5.9" r="1.35" fill="#c3a258" opacity=".7"/>
+      <g class="flower-smile" stroke="#80773f" stroke-width="1.4" stroke-linecap="round"><path d="M-6-1V1M6-1V1M-4 7Q0 10 4 7"/></g>
+     </g>
+     <g id="storySeed" transform="translate(260 440)">
+      <path d="M-14 4C-18-8-4-19 11-16C20-2 13 13 1 15C-6 16-11 11-14 4Z" fill="#baa07a"/>
+      <path d="M7-11C-5-5-7 4-5 11" stroke="#dfcbaa" stroke-width="1.8" stroke-linecap="round"/>
+     </g>
+     <path class="story-spark" d="M162 157Q162 165 170 165Q162 165 162 173Q162 165 154 165Q162 165 162 157Z" fill="#b4bd93"/><path class="story-spark" d="M352 119Q352 129 362 129Q352 129 352 139Q352 129 342 129Q352 129 352 119Z" fill="#c9be80"/><path class="story-spark" d="M363 345Q363 351 369 351Q363 351 363 357Q363 351 357 351Q363 351 363 345Z" fill="#bdc79e"/>
+     <circle class="story-spark" cx="147" cy="267" r="3" fill="#d2c08a"/>
+     <circle class="story-spark" cx="372" cy="220" r="3" fill="#c3bd92"/>
+    </svg><span class="art-label">cứ dịu dàng, rồi sẽ nở hoa.</span></div>
+    <div class="story-steps"><div class="story-step is-current"><span class="step-number">01</span><p>Từ một câu hỏi được<br><strong>kiên nhẫn lắng nghe.</strong></p></div><div class="story-step"><span class="step-number">02</span><p>Từ một bài học được<br><strong>giảng thêm một lần.</strong></p></div><div class="story-step"><span class="step-number">03</span><p>Từ một lời khích lệ khiến ai đó<br><strong>muốn thử lại.</strong></p></div><p class="story-thanks">Ngày 20/11 là dịp để những lời cảm ơn được nói thành lời. Và hôm nay, anh muốn gửi lời cảm ơn ấy đến em.</p></div>
+   </div>
+  </div>
+ </section>
+
+ <section class="quiet" id="guiem" data-chapter="03 · Được nâng niu" data-ambient aria-labelledby="quietTitle">
+  <i class="quiet-star" aria-hidden="true"></i><i class="quiet-star" aria-hidden="true"></i><i class="quiet-star" aria-hidden="true"></i><i class="quiet-star" aria-hidden="true"></i>
+  <div class="quiet-inner">
+   <div class="quiet-heart" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.4 5.7a5 5 0 0 0-7.1 0L12 7l-1.3-1.3a5 5 0 0 0-7.1 7.1L12 21l8.4-8.2a5 5 0 0 0 0-7.1Z"/></svg></div><span class="overline" data-reveal>03 / GIANG À, CÒN MỘT ĐIỀU NỮA</span>
+   <h2 id="quietTitle"><span class="line"><span class="read-word">Người</span> <span class="read-word">gieo</span> <span class="read-word">mầm</span></span><span class="line"><span class="read-word">cũng</span> <span class="read-word">cần</span></span><span class="line"><em><span class="read-word">được</span> <span class="read-word">nâng</span> <span class="read-word">niu.</span></em></span></h2>
+   <div class="quiet-copy"><p data-reveal>Nếu hôm nào công việc khiến em mệt,<br>anh mong em cho mình được nghỉ một chút.</p><p data-reveal>Một bữa ăn thong thả. Một buổi tối không vội.<br>Một người chịu ngồi nghe em kể hết câu chuyện trong ngày.</p><p class="quiet-vow" data-reveal>Anh muốn được là người ấy.</p><p data-reveal>Anh thương những điều em đang cố gắng. Và cũng thương cả những lúc em chỉ muốn được ôm, rồi chẳng phải nói gì thêm.</p></div>
+   <a class="quiet-next" href="#bohoa" data-reveal>Để anh gieo vài điều dịu dàng dành cho em.<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a>
+  </div>
+ </section>
+
+ <section class="bouquet-scroll" id="bohoa" data-chapter="04 · Những lời nở hoa" aria-labelledby="bouquetTitle">
+  <span id="khuvuon" class="anchor-alias" aria-hidden="true"></span>
+  <div class="sticky-frame"><div class="wrap bouquet-grid">
+   <div class="bouquet-copy">
+    <span class="overline">04 / MỖI BÔNG HOA, MỘT ĐIỀU ANH MONG</span>
+    <h2 class="section-title" id="bouquetTitle">Anh gói cả<br><em>một chút bình yên.</em></h2>
+    <p class="body-copy">Cuộn tiếp để hoa nở thành một bó quà.<br>Chạm vào một bông hoa nhé, anh có lời chúc cất ở bên trong.</p>
+    <div class="bouquet-route" aria-hidden="true"><span data-bouquet-phase>01 · Gieo mầm</span><i></i><span data-bouquet-phase>02 · Nở hoa</span><i></i><span data-bouquet-phase>03 · Gói thương</span></div>
+    <div class="flower-wish" role="status" aria-live="polite" aria-atomic="true"><strong class="flower-wish-label" id="wishTitle">Một lời chúc đang đợi em</strong><p id="wishText">Bảy bông hoa, bảy điều ước nhỏ. Em chọn một bông để đọc lời thương nhé.</p></div>
+    <div class="bouquet-controls"><button type="button" class="button" id="receiveBouquet" disabled>Nhận bó hoa của anh<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.4 5.7a5 5 0 0 0-7.1 0L12 7l-1.3-1.3a5 5 0 0 0-7.1 7.1L12 21l8.4-8.2a5 5 0 0 0 0-7.1Z"/></svg></button><button type="button" class="bloom-now" id="bloomNow">Cho hoa nở ngay</button></div>
+    <div class="gift-confirmation" id="giftConfirmation" role="status" aria-live="polite"></div>
+    <a class="bouquet-letter-link" href="#lathu">Còn những lời nữa, anh cất trong một lá thư.<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+   </div>
+   <div class="bouquet-visual"><div class="bouquet-stage"><svg class="bouquet-art" id="giftGardenSvg" viewBox="0 0 680 540" fill="none" role="group" aria-labelledby="bouquetArtTitle" xmlns="http://www.w3.org/2000/svg">
+    <title id="bouquetArtTitle">Bảy bông hoa cùng những lời thương dành cho Hương Giang</title>
+    <defs>
+     <linearGradient id="bouquetPaperPaint" x1="221" y1="327" x2="422" y2="493" gradientUnits="userSpaceOnUse"><stop stop-color="#fff9e9"/><stop offset="1" stop-color="#e2ddc3"/></linearGradient>
+     <linearGradient id="bouquetRibbonPaint" x1="288" y1="411" x2="395" y2="448" gradientUnits="userSpaceOnUse"><stop stop-color="#e3b2af"/><stop offset="1" stop-color="#c99197"/></linearGradient>
+    </defs>
+    <g id="bouquetSoil">
+     <ellipse cx="340" cy="449" rx="301" ry="25" fill="#b8c9a2" opacity=".24"/>
+     <path d="M42 442C136 432 223 447 340 440C457 433 558 438 638 447" stroke="#b0c297" stroke-width="2" stroke-linecap="round"/>
+     <path d="M95 465H110M216 458H230M450 464H469M573 457H590" stroke="#a7ba8f" stroke-width="1.7" stroke-linecap="round" opacity=".5"/>
+    </g>
+    <g id="bouquetPlants"><g class="gift-plant" id="giftPlant0" data-flower="0" tabindex="0" role="button" aria-label="Mở lời chúc từ bông hoa thứ 1" transform="translate(70 445) rotate(-3)">
+     <path class="plant-stem" d="M0 0C6 -49 -6 -105 0 -175" stroke="#6d8b60" stroke-width="4.5" stroke-linecap="round" pathLength="400"/>
+     <g class="plant-leaves">
+      <path d="M0 -50.75C-36 -49-51 -71.75-48 -89.25C-20 -92.75-5 -71.750 -50.75Z" fill="#9bb587"/>
+      <path d="M0 -99.75C30 -96.2544 -120.7540 -138.25C15 -136.53 -115.50 -99.75Z" fill="#b5c9a0"/>
+      <path d="M-39 -82.25L-5 -57.75M33 -129.5L5 -106.75" stroke="#66865b" stroke-width="1" opacity=".45"/>
+     </g>
+     <g transform="translate(0 -175)"><g class="plant-head">
+      <g class="plant-petals"><g transform="rotate(0)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#fff7e0" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(40)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#fff7e0" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(80)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#fff7e0" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(120)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#fff7e0" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(160)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#fff7e0" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(200)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#fff7e0" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(240)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#fff7e0" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(280)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#fff7e0" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(320)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#fff7e0" stroke="#ede5cf" stroke-width="1.15"/></g><circle r="8.99" fill="#dbc078"/><circle cy="-1.24" r="6.82" fill="#e9d28c"/><circle cx="-3.1" cy="-2.79" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="2.79" cy="-1.86" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="-0.62" cy="3.1" r="1.35" fill="#c3a258" opacity=".7"/></g>
+      <g class="plant-bud"><path d="M0 16C-22 4-19-20 0-29C19-20 22 4 0 16Z" fill="#a8bc8c"/><path d="M0 16C1-4-6-18 0-29C10-15 13 3 0 16Z" fill="#c4d3ac"/><path d="M0 16V-13" stroke="#789763" stroke-width="1.4" stroke-linecap="round"/></g>
+     </g><circle class="plant-focus" r="38" fill="none" stroke="#637e57" stroke-width="1.5" opacity="0" pointer-events="none"/><circle class="plant-hit" r="40" fill="transparent" pointer-events="all"/></g></g><g class="gift-plant" id="giftPlant1" data-flower="1" tabindex="0" role="button" aria-label="Mở lời chúc từ bông hoa thứ 2" transform="translate(160 445) rotate(2)">
+     <path class="plant-stem" d="M0 0C-5 -60.2 5 -129 0 -215" stroke="#78976a" stroke-width="4.5" stroke-linecap="round" pathLength="400"/>
+     <g class="plant-leaves">
+      <path d="M0 -62.35C-36 -60.2-51 -88.15-48 -109.65C-20 -113.95-5 -88.150 -62.35Z" fill="#a9be91"/>
+      <path d="M0 -122.55C30 -118.2544 -148.3540 -169.85C15 -167.73 -141.90 -122.55Z" fill="#8fab79"/>
+      <path d="M-39 -101.05L-5 -70.95M33 -159.1L5 -131.15" stroke="#66865b" stroke-width="1" opacity=".45"/>
+     </g>
+     <g transform="translate(0 -215)"><g class="plant-head">
+      <g class="plant-petals"><path class="flower-petal" d="M -30.34 -12.58 Q -34.04 26.64 0 24.42 Q 34.04 26.64 30.34 -12.58 L 11.47 -0.37 L 0 -27.01 L -11.47 -0.37 Z" fill="#e8b6bc" stroke="#d49caa" stroke-width="1.4"/><path class="flower-petal" d="M -23.68 -9.25 Q -21.09 16.65 0 24.05 Q 1.11 0.74 -23.68 -9.25Z" fill="#f0cbca"/><path class="flower-petal" d="M 23.68 -9.25 Q 21.09 16.65 0 24.05 Q -1.11 0.74 23.68 -9.25Z" fill="#e8b7c0"/><path d="M0 24.05Q-4.44 2.96 0 -20.35" stroke="#dba8b0" stroke-width="1.15" fill="none"/></g>
+      <g class="plant-bud"><path d="M0 16C-22 4-19-20 0-29C19-20 22 4 0 16Z" fill="#a8bc8c"/><path d="M0 16C1-4-6-18 0-29C10-15 13 3 0 16Z" fill="#c4d3ac"/><path d="M0 16V-13" stroke="#789763" stroke-width="1.4" stroke-linecap="round"/></g>
+     </g><circle class="plant-focus" r="44" fill="none" stroke="#637e57" stroke-width="1.5" opacity="0" pointer-events="none"/><circle class="plant-hit" r="46" fill="transparent" pointer-events="all"/></g></g><g class="gift-plant" id="giftPlant2" data-flower="2" tabindex="0" role="button" aria-label="Mở lời chúc từ bông hoa thứ 3" transform="translate(250 445) rotate(-2)">
+     <path class="plant-stem" d="M0 0C6 -68.6 -6 -147 0 -245" stroke="#6d8b60" stroke-width="4.5" stroke-linecap="round" pathLength="400"/>
+     <g class="plant-leaves">
+      <path d="M0 -71.05C-36 -68.6-51 -100.45-48 -124.95C-20 -129.85-5 -100.450 -71.05Z" fill="#9bb587"/>
+      <path d="M0 -139.65C30 -134.7544 -169.0540 -193.55C15 -191.13 -161.70 -139.65Z" fill="#b5c9a0"/>
+      <path d="M-39 -115.15L-5 -80.85M33 -181.3L5 -149.45" stroke="#66865b" stroke-width="1" opacity=".45"/>
+     </g>
+     <g transform="translate(0 -245)"><g class="plant-head">
+      <g class="plant-petals"><g transform="rotate(0)"><ellipse class="flower-petal" cx="0" cy="-22.62" rx="9.945" ry="17.94" fill="#e2dbea" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(40)"><ellipse class="flower-petal" cx="0" cy="-22.62" rx="9.945" ry="17.94" fill="#e2dbea" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(80)"><ellipse class="flower-petal" cx="0" cy="-22.62" rx="9.945" ry="17.94" fill="#e2dbea" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(120)"><ellipse class="flower-petal" cx="0" cy="-22.62" rx="9.945" ry="17.94" fill="#e2dbea" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(160)"><ellipse class="flower-petal" cx="0" cy="-22.62" rx="9.945" ry="17.94" fill="#e2dbea" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(200)"><ellipse class="flower-petal" cx="0" cy="-22.62" rx="9.945" ry="17.94" fill="#e2dbea" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(240)"><ellipse class="flower-petal" cx="0" cy="-22.62" rx="9.945" ry="17.94" fill="#e2dbea" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(280)"><ellipse class="flower-petal" cx="0" cy="-22.62" rx="9.945" ry="17.94" fill="#e2dbea" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(320)"><ellipse class="flower-petal" cx="0" cy="-22.62" rx="9.945" ry="17.94" fill="#e2dbea" stroke="#ede5cf" stroke-width="1.15"/></g><circle r="11.31" fill="#dbc078"/><circle cy="-1.56" r="8.58" fill="#e9d28c"/><circle cx="-3.9" cy="-3.51" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="3.51" cy="-2.34" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="-0.78" cy="3.9" r="1.35" fill="#c3a258" opacity=".7"/></g>
+      <g class="plant-bud"><path d="M0 16C-22 4-19-20 0-29C19-20 22 4 0 16Z" fill="#a8bc8c"/><path d="M0 16C1-4-6-18 0-29C10-15 13 3 0 16Z" fill="#c4d3ac"/><path d="M0 16V-13" stroke="#789763" stroke-width="1.4" stroke-linecap="round"/></g>
+     </g><circle class="plant-focus" r="46" fill="none" stroke="#637e57" stroke-width="1.5" opacity="0" pointer-events="none"/><circle class="plant-hit" r="48" fill="transparent" pointer-events="all"/></g></g><g class="gift-plant" id="giftPlant3" data-flower="3" tabindex="0" role="button" aria-label="Mở lời chúc từ bông hoa thứ 4" transform="translate(340 445) rotate(0)">
+     <path class="plant-stem" d="M0 0C-5 -72.8 5 -156 0 -260" stroke="#78976a" stroke-width="4.5" stroke-linecap="round" pathLength="400"/>
+     <g class="plant-leaves">
+      <path d="M0 -75.4C-36 -72.8-51 -106.6-48 -132.6C-20 -137.8-5 -106.60 -75.4Z" fill="#a9be91"/>
+      <path d="M0 -148.2C30 -14344 -179.440 -205.4C15 -202.83 -171.60 -148.2Z" fill="#8fab79"/>
+      <path d="M-39 -122.2L-5 -85.8M33 -192.4L5 -158.6" stroke="#66865b" stroke-width="1" opacity=".45"/>
+     </g>
+     <g transform="translate(0 -260)"><g class="plant-head">
+      <g class="plant-petals"><g transform="rotate(0)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(32.7273)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(65.4545)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(98.1818)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(130.909)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(163.636)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(196.364)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(229.091)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(261.818)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(294.545)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(327.273)"><ellipse class="flower-petal" cx="0" cy="-24.94" rx="10.965" ry="19.78" fill="#fff9e6" stroke="#ede5cf" stroke-width="1.15"/></g><circle r="12.47" fill="#dbc078"/><circle cy="-1.72" r="9.46" fill="#e9d28c"/><circle cx="-4.3" cy="-3.87" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="3.87" cy="-2.58" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="-0.86" cy="4.3" r="1.35" fill="#c3a258" opacity=".7"/><path d="M-4-1V1M4-1V1M-3 5Q0 8 3 5" stroke="#827743" stroke-width="1.25" stroke-linecap="round"/></g>
+      <g class="plant-bud"><path d="M0 16C-22 4-19-20 0-29C19-20 22 4 0 16Z" fill="#a8bc8c"/><path d="M0 16C1-4-6-18 0-29C10-15 13 3 0 16Z" fill="#c4d3ac"/><path d="M0 16V-13" stroke="#789763" stroke-width="1.4" stroke-linecap="round"/></g>
+     </g><circle class="plant-focus" r="50" fill="none" stroke="#637e57" stroke-width="1.5" opacity="0" pointer-events="none"/><circle class="plant-hit" r="52" fill="transparent" pointer-events="all"/></g></g><g class="gift-plant" id="giftPlant4" data-flower="4" tabindex="0" role="button" aria-label="Mở lời chúc từ bông hoa thứ 5" transform="translate(430 445) rotate(2)">
+     <path class="plant-stem" d="M0 0C6 -63 -6 -135 0 -225" stroke="#6d8b60" stroke-width="4.5" stroke-linecap="round" pathLength="400"/>
+     <g class="plant-leaves">
+      <path d="M0 -65.25C-36 -63-51 -92.25-48 -114.75C-20 -119.25-5 -92.250 -65.25Z" fill="#9bb587"/>
+      <path d="M0 -128.25C30 -123.7544 -155.2540 -177.75C15 -175.53 -148.50 -128.25Z" fill="#b5c9a0"/>
+      <path d="M-39 -105.75L-5 -74.25M33 -166.5L5 -137.25" stroke="#66865b" stroke-width="1" opacity=".45"/>
+     </g>
+     <g transform="translate(0 -225)"><g class="plant-head">
+      <g class="plant-petals"><path class="flower-petal" d="M -31.98 -13.26 Q -35.88 28.08 0 25.74 Q 35.88 28.08 31.98 -13.26 L 12.09 -0.39 L 0 -28.47 L -12.09 -0.39 Z" fill="#ebc0bb" stroke="#d49caa" stroke-width="1.4"/><path class="flower-petal" d="M -24.96 -9.75 Q -22.23 17.55 0 25.35 Q 1.17 0.78 -24.96 -9.75Z" fill="#f0cbca"/><path class="flower-petal" d="M 24.96 -9.75 Q 22.23 17.55 0 25.35 Q -1.17 0.78 24.96 -9.75Z" fill="#e8b7c0"/><path d="M0 25.35Q-4.68 3.12 0 -21.45" stroke="#dba8b0" stroke-width="1.15" fill="none"/></g>
+      <g class="plant-bud"><path d="M0 16C-22 4-19-20 0-29C19-20 22 4 0 16Z" fill="#a8bc8c"/><path d="M0 16C1-4-6-18 0-29C10-15 13 3 0 16Z" fill="#c4d3ac"/><path d="M0 16V-13" stroke="#789763" stroke-width="1.4" stroke-linecap="round"/></g>
+     </g><circle class="plant-focus" r="46" fill="none" stroke="#637e57" stroke-width="1.5" opacity="0" pointer-events="none"/><circle class="plant-hit" r="48" fill="transparent" pointer-events="all"/></g></g><g class="gift-plant" id="giftPlant5" data-flower="5" tabindex="0" role="button" aria-label="Mở lời chúc từ bông hoa thứ 6" transform="translate(520 445) rotate(-2)">
+     <path class="plant-stem" d="M0 0C-5 -57.4 5 -123 0 -205" stroke="#78976a" stroke-width="4.5" stroke-linecap="round" pathLength="400"/>
+     <g class="plant-leaves">
+      <path d="M0 -59.45C-36 -57.4-51 -84.05-48 -104.55C-20 -108.65-5 -84.050 -59.45Z" fill="#a9be91"/>
+      <path d="M0 -116.85C30 -112.7544 -141.4540 -161.95C15 -159.93 -135.30 -116.85Z" fill="#8fab79"/>
+      <path d="M-39 -96.35L-5 -67.65M33 -151.7L5 -125.05" stroke="#66865b" stroke-width="1" opacity=".45"/>
+     </g>
+     <g transform="translate(0 -205)"><g class="plant-head">
+      <g class="plant-petals"><g transform="rotate(0)"><ellipse class="flower-petal" cx="0" cy="-20.3" rx="8.925" ry="16.1" fill="#f1ebd4" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(40)"><ellipse class="flower-petal" cx="0" cy="-20.3" rx="8.925" ry="16.1" fill="#f1ebd4" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(80)"><ellipse class="flower-petal" cx="0" cy="-20.3" rx="8.925" ry="16.1" fill="#f1ebd4" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(120)"><ellipse class="flower-petal" cx="0" cy="-20.3" rx="8.925" ry="16.1" fill="#f1ebd4" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(160)"><ellipse class="flower-petal" cx="0" cy="-20.3" rx="8.925" ry="16.1" fill="#f1ebd4" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(200)"><ellipse class="flower-petal" cx="0" cy="-20.3" rx="8.925" ry="16.1" fill="#f1ebd4" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(240)"><ellipse class="flower-petal" cx="0" cy="-20.3" rx="8.925" ry="16.1" fill="#f1ebd4" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(280)"><ellipse class="flower-petal" cx="0" cy="-20.3" rx="8.925" ry="16.1" fill="#f1ebd4" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(320)"><ellipse class="flower-petal" cx="0" cy="-20.3" rx="8.925" ry="16.1" fill="#f1ebd4" stroke="#ede5cf" stroke-width="1.15"/></g><circle r="10.15" fill="#dbc078"/><circle cy="-1.4" r="7.7" fill="#e9d28c"/><circle cx="-3.5" cy="-3.15" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="3.15" cy="-2.1" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="-0.7" cy="3.5" r="1.35" fill="#c3a258" opacity=".7"/></g>
+      <g class="plant-bud"><path d="M0 16C-22 4-19-20 0-29C19-20 22 4 0 16Z" fill="#a8bc8c"/><path d="M0 16C1-4-6-18 0-29C10-15 13 3 0 16Z" fill="#c4d3ac"/><path d="M0 16V-13" stroke="#789763" stroke-width="1.4" stroke-linecap="round"/></g>
+     </g><circle class="plant-focus" r="42" fill="none" stroke="#637e57" stroke-width="1.5" opacity="0" pointer-events="none"/><circle class="plant-hit" r="44" fill="transparent" pointer-events="all"/></g></g><g class="gift-plant" id="giftPlant6" data-flower="6" tabindex="0" role="button" aria-label="Mở lời chúc từ bông hoa thứ 7" transform="translate(610 445) rotate(3)">
+     <path class="plant-stem" d="M0 0C6 -49 -6 -105 0 -175" stroke="#6d8b60" stroke-width="4.5" stroke-linecap="round" pathLength="400"/>
+     <g class="plant-leaves">
+      <path d="M0 -50.75C-36 -49-51 -71.75-48 -89.25C-20 -92.75-5 -71.750 -50.75Z" fill="#9bb587"/>
+      <path d="M0 -99.75C30 -96.2544 -120.7540 -138.25C15 -136.53 -115.50 -99.75Z" fill="#b5c9a0"/>
+      <path d="M-39 -82.25L-5 -57.75M33 -129.5L5 -106.75" stroke="#66865b" stroke-width="1" opacity=".45"/>
+     </g>
+     <g transform="translate(0 -175)"><g class="plant-head">
+      <g class="plant-petals"><g transform="rotate(0)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#dce6cf" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(40)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#dce6cf" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(80)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#dce6cf" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(120)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#dce6cf" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(160)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#dce6cf" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(200)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#dce6cf" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(240)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#dce6cf" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(280)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#dce6cf" stroke="#ede5cf" stroke-width="1.15"/></g><g transform="rotate(320)"><ellipse class="flower-petal" cx="0" cy="-17.98" rx="7.905" ry="14.26" fill="#dce6cf" stroke="#ede5cf" stroke-width="1.15"/></g><circle r="8.99" fill="#dbc078"/><circle cy="-1.24" r="6.82" fill="#e9d28c"/><circle cx="-3.1" cy="-2.79" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="2.79" cy="-1.86" r="1.35" fill="#c3a258" opacity=".7"/><circle cx="-0.62" cy="3.1" r="1.35" fill="#c3a258" opacity=".7"/></g>
+      <g class="plant-bud"><path d="M0 16C-22 4-19-20 0-29C19-20 22 4 0 16Z" fill="#a8bc8c"/><path d="M0 16C1-4-6-18 0-29C10-15 13 3 0 16Z" fill="#c4d3ac"/><path d="M0 16V-13" stroke="#789763" stroke-width="1.4" stroke-linecap="round"/></g>
+     </g><circle class="plant-focus" r="38" fill="none" stroke="#637e57" stroke-width="1.5" opacity="0" pointer-events="none"/><circle class="plant-hit" r="40" fill="transparent" pointer-events="all"/></g></g></g>
+    <g id="bouquetPaper" opacity="0">
+     <path d="M197 325L245 310L340 370L437 310L485 325L371 515H311Z" fill="#d7dfc5"/>
+     <path d="M199 328L340 515L483 328L444 321L340 385L235 320Z" fill="url(#bouquetPaperPaint)" stroke="#d8d2b8" stroke-width="1.3"/>
+     <path d="M199 328L340 515L331 386L235 320Z" fill="#fff9ea"/>
+     <path d="M483 328L340 515L349 386L444 321Z" fill="#e8e2cc"/>
+     <path d="M248 350L337 500M433 349L344 500" stroke="#d6d0b7" stroke-width="1.1"/>
+     <path d="M254 402C300 413 341 432 375 461" stroke="#eadfc8" stroke-width="1.1"/>
+    </g>
+    <g id="bouquetRibbon" opacity="0">
+     <path d="M335 429C311 400 282 397 272 416C263 439 309 447 335 439C309 457 298 474 297 495L317 484L328 493L346 443Z" fill="url(#bouquetRibbonPaint)"/>
+     <path d="M345 429C369 400 398 397 408 416C417 439 371 447 345 439C371 457 382 474 383 495L363 484L352 493L334 443Z" fill="#ddb0b1"/>
+     <path d="M281 418C289 410 310 417 332 435M399 418C391 410 370 417 348 435" stroke="#bf858e" stroke-width="1.5" stroke-linecap="round"/>
+     <path d="M333 425Q340 422 347 425L350 442Q340 447 330 442Z" fill="#c99099"/>
+     <path d="M337 427L340 440" stroke="#e9bfc0" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+    <g id="bouquetTag" opacity="0" transform="translate(387 437) rotate(-9)">
+     <path d="M-43-7C-19-24-10-19 10 3" stroke="#87996d" stroke-width="1.1"/>
+     <path d="M0 2L12-7H122V43H12L0 34Z" fill="#fffdf3" stroke="#c9d3b9" stroke-width="1.2"/>
+     <circle cx="12" cy="18" r="2.7" fill="#bdc7aa"/>
+     <text x="68" y="12" text-anchor="middle" fill="#8a9674" font-family="Patrick Hand,cursive" font-size="9" letter-spacing="1.2">DÀNH RIÊNG CHO</text>
+     <text x="68" y="30" text-anchor="middle" fill="#4e6c46" font-family="Dancing Script,cursive" font-size="15">Đặng Hương Giang</text>
+    </g>
+   </svg></div><p class="bouquet-caption" id="bouquetCaption" aria-hidden="true">Một hạt mầm, một chút thương.</p></div>
+  </div></div>
+ </section>
+ <section class="chapter lettersection" id="lathu" data-chapter="05 · Những lời giữ lại">
+  <div class="inner letter-layout">
+   <div class="letter-intro" data-reveal>
+    <span class="chapter-num reveal">05 / NHỮNG LỜI ANH CẤT RIÊNG</span>
+    <h2 class="heading reveal delay1">Có những lời anh<br>muốn em giữ lại.</h2>
+    <p class="lead reveal delay2">Bó hoa đã nói giúp anh một phần. Những lời còn lại, anh cất ở đây — để em có thể mở lại vào cả những ngày bình thường.</p>
+    <p class="letter-intro-note reveal delay3">Viết bằng tất cả những yêu thương.</p>
+   </div>
+   <div class="letter-stationery" data-reveal style="--delay:120ms">
+    <div class="letter-desk">
+     <span class="desk-sprig"><svg viewBox="0 0 160 210" fill="none" aria-hidden="true" focusable="false"><path d="M76 195C81 147 83 91 120 24M81 142C64 123 45 105 28 97M91 106C110 89 128 80 144 78" stroke="#7b9e7c" stroke-width="2" stroke-linecap="round"/><path d="M79 160C48 162 37 145 39 133C59 131 74 141 79 160Z" fill="#b2c6a6"/><path d="M81 139C105 137 121 120 119 108C99 107 82 122 81 139Z" fill="#91b392"/><path d="M85 118C57 113 50 92 56 81C77 86 86 99 85 118Z" fill="#c6d4b7"/><path d="M94 94C116 92 128 76 123 65C105 66 95 78 94 94Z" fill="#a1bd9b"/><path d="M108 60C91 49 91 33 100 25C113 34 115 47 108 60Z" fill="#b2c6a6"/><path d="M119 30C118 13 129 4 139 7C143 21 134 29 119 30Z" fill="#8aaf90"/><path d="M64 124C45 129 32 118 31 108C45 102 59 109 64 124Z" fill="#c0d2b2"/><path d="M44 108C28 107 17 98 19 88C35 86 43 95 44 108Z" fill="#a1bd9b"/><path d="M125 86C133 63 146 62 153 68C151 80 139 86 125 86Z" fill="#c6d4b7"/><g transform="translate(36 63)"><ellipse cy="-9" rx="6" ry="10" fill="#f5eee0"/><ellipse cx="9" rx="10" ry="6" fill="#faf2e5"/><ellipse cy="9" rx="6" ry="10" fill="#f5eee0"/><ellipse cx="-9" rx="10" ry="6" fill="#faf2e5"/><circle r="5" fill="#d8bb78"/></g><circle cx="65" cy="35" r="3" fill="#d2ba85"/><circle cx="145" cy="124" r="3" fill="#d2ba85"/></svg></span>
+     <button class="envelope-wrap" id="envelope" type="button" aria-label="Mở lá thư dành cho Hương Giang" aria-haspopup="dialog" aria-expanded="false" aria-controls="modal">
+      <span class="envelope-back" aria-hidden="true"></span>
+      <span class="envelope-slip" aria-hidden="true"><small>MỘT CHÚT THƯƠNG · 20/11</small><strong>Gửi em yêu của anh</strong></span>
+      <span class="envelope-pocket" aria-hidden="true"></span>
+      <span class="flap" aria-hidden="true"></span>
+      <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M20.5 5.6a5 5 0 0 0-7.1 0L12 7l-1.4-1.4a5 5 0 0 0-7.1 7.1L12 21l8.5-8.3a5 5 0 0 0 0-7.1Z" fill="currentColor"/></svg></span>
+      <span class="envelope-address" aria-hidden="true"><small>Gửi cô giáo nhỏ</small><strong>Đặng Hương Giang</strong></span>
+      <span class="envelope-stamp" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M20.5 5.6a5 5 0 0 0-7.1 0L12 7l-1.4-1.4a5 5 0 0 0-7.1 7.1L12 21l8.5-8.3a5 5 0 0 0 0-7.1Z" fill="currentColor"/></svg><span>20.11</span></span>
+     </button>
+     <span class="desk-note" aria-hidden="true">Chỉ mình em thôi.</span>
+    </div>
+    <div class="letter-open-control">
+     <button class="pill" id="openletter" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="modal"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M20.5 5.6a5 5 0 0 0-7.1 0L12 7l-1.4-1.4a5 5 0 0 0-7.1 7.1L12 21l8.5-8.3a5 5 0 0 0 0-7.1Z" fill="currentColor"/></svg>Mở những lời thương</button>
+     <p class="letter-open-hint">Chạm vào phong thư, rồi đọc cùng anh nhé.</p>
+    </div>
+   </div>
+  </div>
+ </section>
+ <section class="ending" id="ket" aria-labelledby="endTitle">
+  <div class="ending-bloom" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 10C2 6 10 0 12 8c2-8 10-2 2 2 8 2 2 10-2 4-4 6-10-2-2-2-8-4 0-10 2-2Z"/><circle cx="12" cy="11" r="2.6"/><path d="M12 15v8m0-5c-5 0-6-3-6-3 5-1 6 3 6 3Z"/></svg></div>
+  <span class="overline" data-reveal>VÀ SAU TẤT CẢ NHỮNG ĐIỀU ĐÃ KỂ…</span>
+  <h2 id="endTitle" data-reveal>Chúc em vui với nghề,<br>bình yên trong lòng<br>và <em>luôn được yêu thương.</em></h2>
+  <div class="ending-message" data-reveal>
+   <p>Giang à, nhân ngày 20/11, anh chúc em thật nhiều sức khỏe, niềm vui và những ngày đến lớp nhẹ lòng. Mong sự tận tâm của em luôn được trân trọng, và em luôn tìm thấy ý nghĩa trong công việc mình đã chọn.</p>
+   <p>Em yêu, giữa bao điều phải lo, mong em vẫn có thời gian cho mình, được nghỉ khi mệt và được vui với những điều nhỏ bé. Còn khi có điều gì khiến em nặng lòng, em cứ kể anh nghe. Anh thương em, tự hào về em và muốn cùng em chia sẻ cả những ngày bình thường nhất.</p>
+  </div>
+  <p class="signature" data-reveal>Thương em, cô giáo của anh. ♡</p>
+  <p class="ending-small" data-reveal>Gửi Hương Giang — Em yêu của anh.<br>Cảm ơn em vì đã là một phần thật đẹp trong cuộc đời anh.</p>
+ </section>
+</main>
+<footer class="site-footer"><div class="footer-line"><span>Một món quà nhỏ, dành riêng cho Hương Giang. ♡</span><a href="#dau">Kể lại từ đầu<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div></footer>
+<dialog class="letter-modal" id="modal" aria-modal="true" aria-labelledby="lettertitle">
+ <article class="letter-sheet" data-state="idle">
+  <header class="letter-toolbar">
+   <div class="letter-toolbar-label"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M20.5 5.6a5 5 0 0 0-7.1 0L12 7l-1.4-1.4a5 5 0 0 0-7.1 7.1L12 21l8.5-8.3a5 5 0 0 0 0-7.1Z" fill="currentColor"/></svg><div><strong>MỘT LÁ THƯ DÀNH RIÊNG CHO EM</strong><span>Cất một chút yêu thương ở đây.</span></div></div>
+   <button class="letter-close" id="close" type="button" aria-label="Đóng thư"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+  </header>
+  <div class="letter-scroll" id="letterScroll" tabindex="0" role="region" aria-label="Nội dung lá thư">
+   <span class="letter-ornament"><svg viewBox="0 0 160 210" fill="none" aria-hidden="true" focusable="false"><path d="M76 195C81 147 83 91 120 24M81 142C64 123 45 105 28 97M91 106C110 89 128 80 144 78" stroke="#7b9e7c" stroke-width="2" stroke-linecap="round"/><path d="M79 160C48 162 37 145 39 133C59 131 74 141 79 160Z" fill="#b2c6a6"/><path d="M81 139C105 137 121 120 119 108C99 107 82 122 81 139Z" fill="#91b392"/><path d="M85 118C57 113 50 92 56 81C77 86 86 99 85 118Z" fill="#c6d4b7"/><path d="M94 94C116 92 128 76 123 65C105 66 95 78 94 94Z" fill="#a1bd9b"/><path d="M108 60C91 49 91 33 100 25C113 34 115 47 108 60Z" fill="#b2c6a6"/><path d="M119 30C118 13 129 4 139 7C143 21 134 29 119 30Z" fill="#8aaf90"/><path d="M64 124C45 129 32 118 31 108C45 102 59 109 64 124Z" fill="#c0d2b2"/><path d="M44 108C28 107 17 98 19 88C35 86 43 95 44 108Z" fill="#a1bd9b"/><path d="M125 86C133 63 146 62 153 68C151 80 139 86 125 86Z" fill="#c6d4b7"/><g transform="translate(36 63)"><ellipse cy="-9" rx="6" ry="10" fill="#f5eee0"/><ellipse cx="9" rx="10" ry="6" fill="#faf2e5"/><ellipse cy="9" rx="6" ry="10" fill="#f5eee0"/><ellipse cx="-9" rx="10" ry="6" fill="#faf2e5"/><circle r="5" fill="#d8bb78"/></g><circle cx="65" cy="35" r="3" fill="#d2ba85"/><circle cx="145" cy="124" r="3" fill="#d2ba85"/></svg></span>
+   <div class="letter-date">NGÀY 20 THÁNG 11 · TỪ ANH</div>
+   <h2 id="lettertitle">Gửi Hương Giang,<span>em yêu của anh.</span></h2>
+   <div class="letter-divider" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M20.5 5.6a5 5 0 0 0-7.1 0L12 7l-1.4-1.4a5 5 0 0 0-7.1 7.1L12 21l8.5-8.3a5 5 0 0 0 0-7.1Z" fill="currentColor"/></svg></div>
+   <div class="letter-copy letter-sr-only" id="letterFull"><p>Em yêu à,</p>
+    <p>Chúc mừng ngày Nhà giáo Việt Nam 20/11.</p>
+    <p>Hôm nay, anh mong em được nhận thật nhiều lời cảm ơn, những bó hoa xinh và những niềm vui làm em nhớ mãi. Nhưng hơn hết, anh mong em cảm nhận được rằng những điều em làm có ý nghĩa, và chính em cũng xứng đáng được chăm sóc, được lắng nghe, được thương.</p>
+    <p>Nếu có một ngày không diễn ra như em mong đợi, mình cứ đi chậm lại. Em có thể kể anh nghe, hoặc chỉ ngồi cạnh anh một lúc. Anh vẫn muốn ở đó.</p>
+    <p>Cảm ơn em vì đã có mặt trong cuộc đời anh. Anh rất vui vì được dành món quà nhỏ này cho Hương Giang — em yêu của anh.</p>
+    <p><strong>Chúc em bình an, vui với nghề và dịu dàng với chính mình. Anh thương em nhiều lắm.</strong></p>
+    <p class="letter-signature">Người luôn thương em ♡<small>TỪ ANH, VỚI TẤT CẢ YÊU THƯƠNG.</small></p></div>
+   <div class="letter-copy" id="typedLetter" aria-hidden="true"></div>
+  </div>
+  <footer class="letter-footer">
+   <div class="letter-progress" aria-hidden="true"><span id="letterProgress"></span></div>
+   <div class="letter-status-wrap"><span class="letter-status" id="letterStatus" role="status" aria-live="polite">Anh đang viết những lời thương…</span><span class="letter-status"><small>Mỗi dòng là một chút nhớ, một chút thương.</small></span></div>
+   <button class="letter-action" id="letterAction" type="button">Hiện toàn bộ thư</button>
+  </footer>
+ </article>
+</dialog>
+<div class="site-toast" id="siteToast" role="status" aria-live="polite"></div>
+<noscript><article class="no-script-letter"><h2>Gửi Hương Giang, em yêu của anh.</h2><p>Em yêu à,</p>
+ <p>Chúc mừng ngày Nhà giáo Việt Nam 20/11.</p>
+ <p>Hôm nay, anh mong em được nhận thật nhiều lời cảm ơn, những bó hoa xinh và những niềm vui làm em nhớ mãi. Nhưng hơn hết, anh mong em cảm nhận được rằng những điều em làm có ý nghĩa, và chính em cũng xứng đáng được chăm sóc, được lắng nghe, được thương.</p>
+ <p>Nếu có một ngày không diễn ra như em mong đợi, mình cứ đi chậm lại. Em có thể kể anh nghe, hoặc chỉ ngồi cạnh anh một lúc. Anh vẫn muốn ở đó.</p>
+ <p>Cảm ơn em vì đã có mặt trong cuộc đời anh. Anh rất vui vì được dành món quà nhỏ này cho Hương Giang — em yêu của anh.</p>
+ <p><strong>Chúc em bình an, vui với nghề và dịu dàng với chính mình. Anh thương em nhiều lắm.</strong></p>
+ <p class="letter-signature">Người luôn thương em ♡<small>TỪ ANH, VỚI TẤT CẢ YÊU THƯƠNG.</small></p></article></noscript>
+<script>
+ 'use strict';
+ const $ = selector => document.querySelector(selector);
+
+ // BEGIN PURE MOTION: deterministic poses, shared by scrolling and the skip button.
+ const clamp01 = value => Math.max(0, Math.min(1, Number.isFinite(value) ? value : 0));
+ const phase = (value, start, end) => clamp01((value - start) / (end - start));
+ const smooth = value => { const x = clamp01(value); return x * x * (3 - 2 * x); };
+ const lerp = (a, b, progress) => a + (b - a) * progress;
+ const gardenGeometry = [
+  { x:70, angle:-3, length:175, target:-30 },
+  { x:160, angle:2, length:215, target:-20 },
+  { x:250, angle:-2, length:245, target:-10 },
+  { x:340, angle:0, length:260, target:0 },
+  { x:430, angle:2, length:225, target:12 },
+  { x:520, angle:-2, length:205, target:23 },
+  { x:610, angle:3, length:175, target:34 }
+ ];
+ function scrollProgress(top, height, frameHeight) {
+  return clamp01(-top / Math.max(1, height - frameHeight));
+ }
+ function seedPose(progress) {
+  const p = clamp01(progress);
+  return { roots:smooth(phase(p,0,.25)), stem:smooth(phase(p,.08,.7)), leaves:smooth(phase(p,.36,.73)), bloom:smooth(phase(p,.68,.96)), step:Math.min(2,Math.floor(p*3)) };
+ }
+ function flowerPose(progress, index, touched = false) {
+  const p = clamp01(progress), g = gardenGeometry[index];
+  const gather = smooth(phase(p,.57,.83));
+  return {
+   x:lerp(g.x,340,gather), y:lerp(445,455,gather), angle:lerp(g.angle,g.target,gather),
+   stem:touched ? 1 : smooth(phase(p,.015+index*.015,.18+index*.024)),
+   bloom:touched ? 1 : smooth(phase(p,.18+index*.034,.33+index*.034))
+  };
+ }
+ function wrapPose(progress) {
+  const p=clamp01(progress);
+  return { paper:smooth(phase(p,.75,.9)), ribbon:smooth(phase(p,.86,.96)), tag:smooth(phase(p,.92,1)), soil:1-smooth(phase(p,.58,.84)), phase:p<.18?0:p<.58?1:2, ready:p>=.96 };
+ }
+ // END PURE MOTION
+
+ const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
+ const shortViewport = matchMedia('(max-height: 620px), (max-width: 700px) and (max-height: 780px)');
+ const storyScene = $('#cauchuyen'), storyFrame = storyScene.querySelector('.sticky-frame');
+ const bouquetScene = $('#bohoa'), bouquetFrame = bouquetScene.querySelector('.sticky-frame');
+ const quietScene = $('#guiem'), endScene = $('#ket');
+ const chapters = Array.from(document.querySelectorAll('[data-chapter]'));
+ const railLinks = Array.from(document.querySelectorAll('.story-rail a'));
+ const storySteps = Array.from(document.querySelectorAll('.story-step'));
+ const phaseMarkers = Array.from(document.querySelectorAll('[data-bouquet-phase]'));
+ const readWords = Array.from(document.querySelectorAll('.read-word'));
+ const plants = gardenGeometry.map((geometry,index) => {
+  const root=$('#giftPlant'+index), head=root.querySelector('.plant-head');
+  return {root,geometry,headParent:head.parentElement,stem:root.querySelector('.plant-stem'),leaves:root.querySelector('.plant-leaves'),petals:root.querySelector('.plant-petals'),bud:root.querySelector('.plant-bud'),individual:Array.from(root.querySelectorAll('.flower-petal'))};
+ });
+ const wishes = [
+  {title:'Bình an',text:'Mong em bắt đầu ngày mới với lòng nhẹ hơn một chút, và khép lại một ngày với cảm giác mình đã làm đủ rồi.'},
+  {title:'Niềm vui',text:'Mong ở lớp luôn có một điều khiến em mỉm cười: một câu hỏi hay, một ánh mắt hiểu bài, một câu chào thật vui.'},
+  {title:'Được trân trọng',text:'Mong những cố gắng thầm lặng của em được nhìn thấy, và những điều em trao đi được đón nhận bằng sự biết ơn.'},
+  {title:'Dịu dàng với mình',text:'Mong em dành cho chính mình một chút dịu dàng, như cách em vẫn dành cho những người xung quanh.'},
+  {title:'Những khoảng nghỉ',text:'Mong em có những buổi tối không vội, những giấc ngủ thật yên và thời gian làm điều em thích.'},
+  {title:'Tin vào chính mình',text:'Mong em nhớ rằng một ngày khó khăn không làm những điều tốt đẹp em đã cố gắng trở nên nhỏ bé.'},
+  {title:'Có anh ở đây',text:'Mong em luôn nhớ: có một người muốn nghe cả chuyện vui lẫn những điều khiến em thở dài. Người đó là anh.'}
+ ];
+ const storyState={manualProgress:0,manualAnimation:null,progress:0,unlocked:false,giftAccepted:false,touched:new Set(),chapter:'',hiddenAt:0};
+ let frameRequest=0, previousPhase=-1, toastTimer=0;
+
+ function isStaticScene(){return motionPreference.matches || shortViewport.matches;}
+ function queueFrame(){if(!frameRequest&&!document.hidden)frameRequest=requestAnimationFrame(drawStory);}
+ function applySeed(progress){
+  const pose=seedPose(progress);
+  $('#storyRoots').setAttribute('opacity',pose.roots.toFixed(3));
+  $('#storyStem').setAttribute('stroke-dashoffset',(700*(1-pose.stem)).toFixed(2));
+  $('#storyLeaves').setAttribute('opacity',pose.leaves.toFixed(3));
+  $('#storyFlower').setAttribute('opacity',pose.bloom.toFixed(3));
+  $('#storyFlower').setAttribute('transform','translate(260 145) scale('+(0.05+.95*pose.bloom).toFixed(4)+')');
+  storySteps.forEach((step,index)=>step.classList.toggle('is-current',index===pose.step));
+ }
+ function applyBouquet(progress){
+  const p=clamp01(progress), wrap=wrapPose(p);
+  plants.forEach((plant,index)=>{
+   const pose=flowerPose(p,index,storyState.touched.has(index));
+   plant.root.setAttribute('transform',`translate(${pose.x.toFixed(3)} ${pose.y.toFixed(3)}) rotate(${pose.angle.toFixed(3)})`);
+   plant.stem.style.strokeDashoffset=(400*(1-pose.stem)).toFixed(2);
+   plant.headParent.setAttribute('transform','translate(0 '+(-plant.geometry.length*pose.stem).toFixed(3)+')');
+   plant.leaves.style.opacity=phase(pose.stem,.45,1).toFixed(3);
+   plant.leaves.setAttribute('transform','scale(1 '+Math.max(.01,pose.stem).toFixed(3)+')');
+   plant.petals.style.opacity=phase(pose.bloom,0,.45).toFixed(3);
+   plant.petals.setAttribute('transform','scale('+(0.15+.85*pose.bloom).toFixed(3)+')');
+   plant.individual.forEach(petal=>petal.setAttribute('transform','scale(1 '+(.25+.75*pose.bloom).toFixed(3)+')'));
+   plant.bud.setAttribute('opacity',(1-phase(pose.bloom,.05,.55)).toFixed(3));
+   plant.bud.setAttribute('transform','scale('+(1-.45*pose.bloom).toFixed(3)+')');
+   plant.root.classList.toggle('is-bloomed',pose.bloom>.95);
+  });
+  $('#bouquetSoil').setAttribute('opacity',wrap.soil.toFixed(3));
+  $('#bouquetPaper').setAttribute('opacity',wrap.paper.toFixed(3));
+  $('#bouquetPaper').setAttribute('transform','translate(0 '+(22*(1-wrap.paper)).toFixed(2)+')');
+  $('#bouquetRibbon').setAttribute('opacity',wrap.ribbon.toFixed(3));
+  $('#bouquetRibbon').setAttribute('transform','translate(340 435) scale('+(.65+.35*wrap.ribbon).toFixed(3)+') translate(-340 -435)');
+  $('#bouquetTag').setAttribute('opacity',wrap.tag.toFixed(3));
+  $('#bouquetTag').setAttribute('transform','translate(387 '+(437+13*(1-wrap.tag)).toFixed(2)+') rotate(-9)');
+  if(previousPhase!==wrap.phase){
+   phaseMarkers.forEach((item,index)=>item.classList.toggle('is-current',index===wrap.phase));
+   $('#bouquetCaption').textContent=['Một hạt mầm, một chút thương.','Những lời thương đang nở thành hoa.','Anh gói những điều dịu dàng lại, dành em.'][wrap.phase];
+   previousPhase=wrap.phase;
+  }
+  if(wrap.ready&&!storyState.unlocked){
+   storyState.unlocked=true;
+   $('#receiveBouquet').disabled=false;
+   $('#bloomNow').textContent='Hoa đã nở vì em';
+   $('#bloomNow').disabled=true;
+   $('#bouquetCaption').textContent='Hương Giang ơi, em nhận hoa nhé.';
+  }
+ }
+ function drawStory(now){
+  frameRequest=0;
+  // Measure all geometry before changing styles. No scroll locking or wheel interception.
+  const viewport=document.documentElement.clientHeight;
+  const storyBounds=storyScene.getBoundingClientRect(), bouquetBounds=bouquetScene.getBoundingClientRect();
+  const quietBounds=quietScene.getBoundingClientRect(), endBounds=endScene.getBoundingClientRect();
+  const storyHeight=storyFrame.getBoundingClientRect().height, bouquetHeight=bouquetFrame.getBoundingClientRect().height;
+  const chapterBounds=chapters.map(element=>({element,box:element.getBoundingClientRect()}));
+  const documentHeight=document.documentElement.scrollHeight;
+  const dialogOpen=!!document.querySelector('dialog[open]');
+  const simple=isStaticScene();
+  if(storyState.manualAnimation){
+   const animation=storyState.manualAnimation;
+   if(dialogOpen){if(!animation.pausedAt)animation.pausedAt=now;}
+   else{
+    if(animation.pausedAt){animation.start+=now-animation.pausedAt;animation.pausedAt=0;}
+    const t=phase(now,animation.start,animation.start+animation.duration);
+    storyState.manualProgress=lerp(animation.from,1,smooth(t));
+    if(t>=1)storyState.manualAnimation=null;
+   }
+  }
+  const flowProgress = bounds => phase(viewport*.6-bounds.top,0,Math.max(1,bounds.height*.8));
+  const storyProgress=motionPreference.matches?1:shortViewport.matches?flowProgress(storyBounds):scrollProgress(storyBounds.top,storyBounds.height,storyHeight);
+  const rawBouquet=motionPreference.matches?1:shortViewport.matches?flowProgress(bouquetBounds):scrollProgress(bouquetBounds.top,bouquetBounds.height,bouquetHeight);
+  const bouquetProgress=storyState.giftAccepted?1:Math.max(rawBouquet,storyState.manualProgress);
+  storyState.progress=bouquetProgress;
+  document.body.classList.toggle('scrolled',scrollY>20);
+  document.body.classList.toggle('dark-zone',quietBounds.top<70&&quietBounds.bottom>70);
+  document.body.classList.toggle('at-end',endBounds.top<viewport*.6);
+  $('#pageProgress').style.transform='scaleX('+clamp01(scrollY/Math.max(1,documentHeight-viewport))+')';
+  if(storyBounds.bottom>0&&storyBounds.top<viewport)applySeed(storyProgress);
+  if(bouquetBounds.bottom>0&&bouquetBounds.top<viewport || storyState.manualAnimation)applyBouquet(bouquetProgress);
+  const litProgress=simple?1:phase(viewport*.7-quietBounds.top,0,viewport*.8);
+  readWords.forEach((word,index)=>word.classList.toggle('lit',litProgress>(index/readWords.length)));
+  const current=chapterBounds.filter(item=>item.box.top<=viewport*.43).pop() || chapterBounds[0];
+  if(current&&storyState.chapter!==current.element.id){
+   storyState.chapter=current.element.id;
+   railLinks.forEach(link=>{if(link.hash==='#'+storyState.chapter)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');});
+   $('#chapterTrack').textContent=current.element.dataset.chapter;
+  }
+  if(!simple&&storyState.chapter==='dau')$('.hero-botanical').style.transform='translateY('+Math.min(45,scrollY*.09).toFixed(1)+'px)';
+  if(storyState.manualAnimation&&!dialogOpen)queueFrame();
+ }
+ function refreshMotion(){
+  document.documentElement.classList.toggle('static-scenes',isStaticScene());
+  if(motionPreference.matches){storyState.manualAnimation=null;storyState.manualProgress=1;}
+  queueFrame();
+ }
+
+ const liveParticles=new Set();
+ function petalBurst(x,y,count=14){
+  if(motionPreference.matches||document.hidden)return;
+  const available=Math.max(0,44-liveParticles.size);
+  for(let i=0;i<Math.min(count,available);i++){
+   const particle=document.createElement('i');particle.className='flower-particle';particle.setAttribute('aria-hidden','true');
+   const angle=Math.random()*Math.PI*2,distance=60+Math.random()*150;
+   particle.style.setProperty('--x',x+'px');particle.style.setProperty('--y',y+'px');
+   particle.style.setProperty('--dx',Math.cos(angle)*distance+'px');particle.style.setProperty('--dy',(Math.sin(angle)*distance+60)+'px');
+   particle.style.setProperty('--rot',(Math.random()*380-190)+'deg');particle.style.setProperty('--color',['#d7dfb8','#ead2bf','#c2d3a8','#e4b9bc'][i%4]);
+   document.body.appendChild(particle);liveParticles.add(particle);setTimeout(()=>{particle.remove();liveParticles.delete(particle);},1900);
+  }
+ }
+ function showWish(index){
+  storyState.touched.add(index);
+  $('#wishTitle').textContent=wishes[index].title;
+  $('#wishText').textContent=wishes[index].text;
+  queueFrame();
+  const box=plants[index].headParent.getBoundingClientRect();
+  petalBurst(box.left+box.width/2,box.top+box.height/2,9);
+ }
+ plants.forEach((plant,index)=>{
+  plant.root.setAttribute('aria-label','Mở lời chúc: '+wishes[index].title);
+  plant.root.querySelector('.plant-hit').setAttribute('r','56');
+  plant.root.addEventListener('click',()=>showWish(index));
+  plant.root.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();showWish(index);}});
+ });
+ $('#bloomNow').addEventListener('click',()=>{
+  if(storyState.unlocked)return;
+  if(motionPreference.matches){storyState.manualProgress=1;queueFrame();return;}
+  storyState.manualAnimation={from:storyState.progress,start:performance.now(),duration:Math.max(900,3900*(1-storyState.progress)),pausedAt:0};
+  $('#bloomNow').textContent='Đang gói những lời thương…';
+  $('#bloomNow').disabled=true;
+  queueFrame();
+ });
+ $('#receiveBouquet').addEventListener('click',()=>{
+  if(!storyState.unlocked||storyState.giftAccepted)return;
+  storyState.giftAccepted=true;
+  storyState.manualAnimation=null;
+  bouquetScene.classList.add('gifted');
+  $('#giftConfirmation').textContent='Bó hoa này là của em, Em yêu à. ♡';
+  $('#receiveBouquet').textContent='Em đã nhận hoa ♡';
+  $('#receiveBouquet').disabled=true;
+  $('#wishTitle').textContent='Dành riêng cho Hương Giang';
+  $('#wishText').textContent='Chúc cô giáo của anh một ngày 20/11 thật ấm lòng. Còn những lời thương nữa, anh cất trong lá thư phía sau.';
+  $('#bouquetCaption').textContent='Bảy bông hoa. Thật nhiều yêu thương.';
+  const box=$('#giftGardenSvg').getBoundingClientRect();petalBurst(box.left+box.width/2,box.top+box.height*.45,30);
+  queueFrame();
+ });
+
+ function showToast(message){$('#siteToast').textContent=message;$('#siteToast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#siteToast').classList.remove('show'),3300);}
+
+ // Optional soft, original bell-like melody. Sound starts only after a click.
+ let musicContext=null,musicMaster=null,musicTimer=null,musicEnabled=false,musicStarting=false,musicIndex=0;
+ const melody=[392,0,440,523.25,440,0,392,329.63,349.23,0,392,440,329.63,0,293.66,261.63];
+ function musicNote(){
+  if(!musicEnabled||document.hidden||!musicContext||musicContext.state!=='running')return;
+  const pitch=melody[musicIndex++%melody.length];if(!pitch)return;
+  const now=musicContext.currentTime,osc=musicContext.createOscillator(),gain=musicContext.createGain();
+  osc.type='sine';osc.frequency.value=pitch;gain.gain.setValueAtTime(.0001,now);gain.gain.exponentialRampToValueAtTime(.04,now+.03);gain.gain.exponentialRampToValueAtTime(.0001,now+1.5);
+  osc.connect(gain).connect(musicMaster);osc.start(now);osc.stop(now+1.6);osc.onended=()=>{osc.disconnect();gain.disconnect();};
+ }
+ async function setMusic(on){
+  if(musicStarting)return;
+  if(!on){musicEnabled=false;clearInterval(musicTimer);musicTimer=null;if(musicMaster)musicMaster.gain.setTargetAtTime(0,musicContext.currentTime,.06);$('#sound').setAttribute('aria-pressed','false');$('#sound').setAttribute('aria-label','Bật nhạc nền');return;}
+  musicStarting=true;
+  try{
+   const AudioEngine=window.AudioContext||window.webkitAudioContext;
+   if(!AudioEngine)throw new Error('Audio unavailable');
+   if(!musicContext){musicContext=new AudioEngine();musicMaster=musicContext.createGain();musicMaster.gain.value=0;musicMaster.connect(musicContext.destination);}
+   await musicContext.resume();musicEnabled=true;musicMaster.gain.setTargetAtTime(.65,musicContext.currentTime,.1);musicNote();clearInterval(musicTimer);musicTimer=setInterval(musicNote,720);
+   $('#sound').setAttribute('aria-pressed','true');$('#sound').setAttribute('aria-label','Tắt nhạc nền');
+  }catch{musicEnabled=false;showToast('Trình duyệt chưa phát được nhạc. Em vẫn đọc câu chuyện nhé.');}
+  finally{musicStarting=false;}
+ }
+ $('#sound').addEventListener('click',()=>setMusic(!musicEnabled));
+
+ document.documentElement.classList.add('js');
+ if('IntersectionObserver' in window){
+  const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target);}}),{threshold:.12});
+  document.querySelectorAll('[data-reveal]').forEach(element=>revealObserver.observe(element));
+  const ambientObserver=new IntersectionObserver(entries=>entries.forEach(entry=>entry.target.classList.toggle('in-view',entry.isIntersecting)),{threshold:0});
+  document.querySelectorAll('[data-ambient]').forEach(element=>ambientObserver.observe(element));
+  if(!motionPreference.matches)document.documentElement.classList.add('motion-ready');
+ }
+ addEventListener('scroll',queueFrame,{passive:true});
+ addEventListener('resize',queueFrame,{passive:true});
+ motionPreference.addEventListener('change',refreshMotion);
+ shortViewport.addEventListener('change',refreshMotion);
+ document.addEventListener('visibilitychange',()=>{
+  document.body.classList.toggle('page-hidden',document.hidden);
+  if(document.hidden){
+   if(storyState.manualAnimation&&!storyState.manualAnimation.pausedAt)storyState.manualAnimation.pausedAt=performance.now();
+   cancelAnimationFrame(frameRequest);frameRequest=0;
+   if(musicContext&&musicEnabled)musicContext.suspend().catch(()=>{});
+  }else{
+   queueFrame();
+   if(musicContext&&musicEnabled)musicContext.resume().catch(()=>{});
+  }
+ });
+ $('#modal').addEventListener('close',queueFrame);
+ if('ResizeObserver' in window)new ResizeObserver(queueFrame).observe(document.body);
+ if(document.fonts)document.fonts.ready.then(queueFrame);
+ refreshMotion();
+
+ // The visual copy types one grapheme at a time; assistive technology gets the
+ // complete static letter, so it never announces individual letters.
+ const letterDialog = $('#modal');
+ const letterScroller = $('#letterScroll');
+ const typedLetter = $('#typedLetter');
+ const letterSource = $('#letterFull');
+ const letterAction = $('#letterAction');
+ const letterMotion = matchMedia('(prefers-reduced-motion: reduce)');
+ const letterSegmenter = typeof Intl.Segmenter === 'function'
+         ? new Intl.Segmenter('vi', { granularity: 'grapheme' }) : null;
+ const graphemes = text => letterSegmenter
+         ? Array.from(letterSegmenter.segment(text), item => item.segment) : Array.from(text);
+ let opened = false;
+ let letterSession = 0;
+ let openingTimer = null;
+ let typingTimer = null;
+ let letterOpener = null;
+ let letterOldOverflow = '';
+ let letterScrollLocked = false;
+ let letterSteps = [];
+ let letterStep = 0;
+ let letterCharacter = 0;
+ let letterTyped = 0;
+ let letterTotal = 0;
+ let letterFinished = false;
+ let activeTypingNode = null;
+
+ function clearLetterTimers() {
+  clearTimeout(openingTimer);
+  clearTimeout(typingTimer);
+  openingTimer = null;
+  typingTimer = null;
+ }
+
+ function setLetterState(complete) {
+  letterFinished = complete;
+  $('.letter-sheet').dataset.state = complete ? 'complete' : 'typing';
+  $('#letterStatus').textContent = complete
+          ? 'Từng lời đều dành cho em. ♡' : 'Anh đang viết những lời thương…';
+  letterAction.textContent = complete ? 'Đọc lại từ đầu' : 'Hiện toàn bộ thư';
+ }
+
+ function resetTypedLetter() {
+  clearTimeout(typingTimer);
+  typingTimer = null;
+  typedLetter.replaceChildren();
+  letterSteps = [];
+  letterStep = 0;
+  letterCharacter = 0;
+  letterTyped = 0;
+  letterTotal = 0;
+  activeTypingNode = null;
+  for (const sourceParagraph of letterSource.children) {
+   const paragraph = sourceParagraph.cloneNode(true);
+   paragraph.hidden = true;
+   const walker = document.createTreeWalker(paragraph, NodeFilter.SHOW_TEXT);
+   let node;
+   while ((node = walker.nextNode())) {
+    if (!node.data) continue;
+    const characters = graphemes(node.data);
+    letterSteps.push({ node, characters, paragraph });
+    letterTotal += characters.length;
+    node.data = '';
+   }
+   typedLetter.appendChild(paragraph);
+  }
+  $('#letterProgress').style.transform = 'scaleX(0)';
+  letterScroller.scrollTop = 0;
+  setLetterState(false);
+ }
+
+ function finishLetter(revealAll = false) {
+  clearTimeout(typingTimer);
+  typingTimer = null;
+  if (activeTypingNode) activeTypingNode.classList.remove('typing-active');
+  activeTypingNode = null;
+  if (revealAll) {
+   // Keep the reader's current position when they choose to skip the animation.
+   const scrollPosition = letterScroller.scrollTop;
+   typedLetter.replaceChildren(...Array.from(letterSource.children, p => p.cloneNode(true)));
+   letterScroller.scrollTop = scrollPosition;
+  }
+  letterTyped = letterTotal;
+  $('#letterProgress').style.transform = 'scaleX(1)';
+  setLetterState(true);
+ }
+
+ function typeLetterTick(session) {
+  typingTimer = null;
+  if (session !== letterSession || !opened || !letterDialog.open || letterFinished) return;
+  if (document.hidden) return; // Resume through visibilitychange, without catching up.
+  if (letterStep >= letterSteps.length) { finishLetter(); return; }
+  const followEnd = letterScroller.scrollHeight - letterScroller.clientHeight - letterScroller.scrollTop < 30;
+  const step = letterSteps[letterStep];
+  step.paragraph.hidden = false;
+  if (activeTypingNode !== step.node.parentElement) {
+   if (activeTypingNode) activeTypingNode.classList.remove('typing-active');
+   activeTypingNode = step.node.parentElement;
+   activeTypingNode.classList.add('typing-active');
+  }
+  const character = step.characters[letterCharacter++];
+  step.node.appendData(character);
+  letterTyped++;
+  $('#letterProgress').style.transform = 'scaleX(' + (letterTyped / Math.max(1, letterTotal)) + ')';
+  if (followEnd) letterScroller.scrollTop = letterScroller.scrollHeight;
+  let delay = /[.!?…]/u.test(character) ? 170 : /[,;:]/u.test(character) ? 80 : 19;
+  if (letterCharacter >= step.characters.length) {
+   letterStep++;
+   letterCharacter = 0;
+   const next = letterSteps[letterStep];
+   if (next && next.paragraph !== step.paragraph) delay += 260;
+  }
+  typingTimer = setTimeout(() => typeLetterTick(session), delay);
+ }
+
+ function startLetterTyping() {
+  resetTypedLetter();
+  if (letterMotion.matches) { finishLetter(true); return; }
+  const session = letterSession;
+  typingTimer = setTimeout(() => typeLetterTick(session), 360);
+ }
+
+ function openLetter(event) {
+  if (opened) return;
+  clearLetterTimers();
+  opened = true;
+  const session = ++letterSession;
+  letterOpener = event && event.currentTarget instanceof HTMLElement
+          ? event.currentTarget : document.activeElement;
+  $('#envelope').classList.add('open');
+  $('#envelope').setAttribute('aria-expanded', 'true');
+  $('#openletter').setAttribute('aria-expanded', 'true');
+  openingTimer = setTimeout(() => {
+   openingTimer = null;
+   if (!opened || session !== letterSession) return;
+   letterOldOverflow = document.body.style.overflow;
+   document.body.style.overflow = 'hidden';
+   letterScrollLocked = true;
+   letterDialog.showModal();
+   letterDialog.classList.add('visible');
+   $('#close').focus({ preventScroll: true });
+   startLetterTyping();
+  }, letterMotion.matches ? 0 : 780);
+ }
+
+ function cleanUpLetter() {
+  if (!opened) return;
+  opened = false;
+  letterSession++;
+  clearLetterTimers();
+  if (activeTypingNode) activeTypingNode.classList.remove('typing-active');
+  activeTypingNode = null;
+  letterDialog.classList.remove('visible');
+  $('#envelope').classList.remove('open');
+  $('#envelope').setAttribute('aria-expanded', 'false');
+  $('#openletter').setAttribute('aria-expanded', 'false');
+  if (letterScrollLocked) {
+   document.body.style.overflow = letterOldOverflow;
+   letterScrollLocked = false;
+  }
+  if (letterOpener && letterOpener.isConnected) letterOpener.focus({ preventScroll: true });
+ }
+
+ function closeLetter() {
+  if (letterDialog.open) letterDialog.close();
+  cleanUpLetter();
+ }
+
+ $('#envelope').addEventListener('click', openLetter);
+ $('#openletter').addEventListener('click', openLetter);
+ $('#close').addEventListener('click', closeLetter);
+ letterDialog.addEventListener('close', () => { if (!letterDialog.open) cleanUpLetter(); });
+ letterDialog.addEventListener('cancel', event => { event.preventDefault(); closeLetter(); });
+ letterDialog.addEventListener('click', event => {
+  if (event.target !== letterDialog) return;
+  const box = letterDialog.getBoundingClientRect();
+  if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) closeLetter();
+ });
+ document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && opened && !letterDialog.open) closeLetter();
+ });
+ letterAction.addEventListener('click', () => {
+  if (!opened || !letterDialog.open) return;
+  if (letterFinished) { letterSession++; startLetterTyping(); }
+  else finishLetter(true);
+ });
+ document.addEventListener('visibilitychange', () => {
+  if (!opened || !letterDialog.open || letterFinished) return;
+  clearTimeout(typingTimer);
+  typingTimer = null;
+  if (!document.hidden) {
+   const session = letterSession;
+   typingTimer = setTimeout(() => typeLetterTick(session), 120);
+  }
+ });
+ letterMotion.addEventListener('change', event => {
+  if (event.matches && opened && letterDialog.open && !letterFinished) finishLetter(true);
+ });
+
+
+</script>
+</body>
+</html>
